@@ -325,10 +325,11 @@ ob_start();
             <div
                 class="bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col items-center justify-center p-8 h-full min-h-[300px]">
                 <div class="text-center">
-                    <div class="flex justify-center mb-2">
+                    <!-- <div class="flex justify-center mb-2">
                         <i class="fa-solid fa-hippo text-[#b31b34] text-4xl"></i>
                     </div>
-                    <h1 class="text-3xl font-black text-gray-900 tracking-tight mb-2">BULL<br>STRONG</h1>
+                    <h1 class="text-3xl font-black text-gray-900 tracking-tight mb-2">BULL<br>STRONG</h1> -->
+                     <img src="images/logo-bull-strong.png" alt="logo" class="mx-auto w-40">
                     <p
                         class="text-[10px] text-red-700 font-semibold tracking-widest mb-2 border-b border-gray-200 pb-2">
                         TILE SEGMENT | WALL SEGMENT</p>
@@ -365,296 +366,307 @@ ob_start();
         </div>
     </div>
 </section>
+<!-- gallery -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
 
-    <section id="contact" class="relative py-24 flex items-center justify-center">
-        <div class="absolute inset-0 z-0">
-            <img src="images/cta-footer.png"
-                alt="Architecture" class="w-full h-full object-cover filter grayscale" />
-            <div class="absolute inset-0 bg-black/30 mix-blend-multiply"></div>
+        <!-- Heading -->
+        <div class="text-center mb-14">
+            <h2 class="text-3xl sm:text-4xl font-medium text-gray-900 mb-4"> Product Gallery</h2>
         </div>
 
-        <div class="relative z-10 text-center px-4 max-w-6xl mx-auto reveal zoom-in">
-            <h2 class="text-4xl md:text-6xl font-semibold text-white mb-6">Ready to Build Something Stronger?</h2>
-            <p class="text-xl text-white/90 mb-10 max-w-3xl mx-auto">Get in touch with our industrial specialists to discuss your project
-                requirements and material specifications.</p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="#"
-                    class="bg-white text-[#ED3136] px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:-translate-y-1 shadow-[0_0_20px_rgba(255,255,255,0.4)]">Contact
-                    Us </a>
-                <a href="#"
-                    class="bg-gradient-to-r from-[#ED3136] to-[#B32125] border-2 border-[#ff6363] text-white px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:-translate-y-1">
-                Download Product Catalog</a>
+        <!-- Gallery -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Tile Adhesive -->
+            <div class="relative group overflow-hidden rounded-2xl border border-gray-100">
+                <img src="images/tile-care-product-1.png"
+                    class="w-full h-[420px] object-cover transition duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+            </div>
+
+            <!-- Tile Cleaner -->
+            <div class="relative group overflow-hidden rounded-2xl border border-gray-100">
+                <img src="images/tile-care-product-2.png"
+                    class="w-full h-[420px] object-cover transition duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+            </div>
+
+            <!-- SBR Latex -->
+            <div class="relative group overflow-hidden rounded-2xl border border-gray-100">
+                <img src="images/tile-care-product-3.png"
+                    class="w-full h-[420px] object-cover transition duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+            </div>
+
+            <!-- Tile Grout -->
+            <div class="relative group overflow-hidden rounded-2xl border border-gray-100">
+                <img src="images/tile-care-product-4.png"
+                    class="w-full h-[300px] object-cover transition duration-700 group-hover:scale-110">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
+            </div>
+
+            <!-- Extra Image -->
+            <div class="relative group overflow-hidden rounded-2xl sm:col-span-2 border border-gray-100">
+                <img src="images/about-why-it-was-founded-3.png"
+                    class="w-full h-[320px] object-cover transition duration-700 group-hover:scale-110">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition"></div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<section class="text-white py-16 relative overflow-hidden bg-cover bg-center"
+    style="background-image: url('images/cts-bg.jpg');">
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/70"></div>
+    <div class="max-w-4xl mx-auto px-4 relative z-10 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Ready to Build Something Stronger?
+        </h2>
+        <p class="text-gray-300 mb-8 max-w-2xl mx-auto">Get in touch with our industrial specialists to discuss your project
+            requirements and material specifications.</p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#"
+                class="bg-white text-[#ED3136] px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:-translate-y-1 shadow-[0_0_20px_rgba(255,255,255,0.4)]">Contact
+                Us </a>
+            <a href="#"
+                class="bg-gradient-to-r from-[#ED3136] to-[#B32125] border-2 border-[#ff6363] text-white px-8 py-4 rounded-lg font-semibold text-lg transition transform hover:-translate-y-1">
+                Download Product Catalog</a>
+        </div>
+    </div>
+</section>
+
 
 <!-- Growth & Milestones Section Script -->
 <script>
-    const originalData = [
-        {
-            label: "1978", title: "Year Founded",
+    const milestonesData = [{
+            label: "1978",
+            title: "Year Founded",
             description: "The journey began with mineral mining operations near Chargawan, Jodhpur, focusing on extracting high-quality natural minerals.",
             image: "https://images.unsplash.com/photo-1578507065211-1c4e99a5fd24?auto=format&fit=crop&q=80&w=800"
         },
         {
-            label: "1985", title: "First Processing Plant",
+            label: "1985",
+            title: "First Processing Plant",
             description: "Established our first dedicated mineral processing facility, allowing us to refine raw materials and expand our product offerings.",
             image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
         },
         {
-            label: "1994", title: "National Expansion",
+            label: "1994",
+            title: "National Expansion",
             description: "Expanded distribution networks across India, becoming a key supplier for major industrial and construction projects nationwide.",
             image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800"
         },
         {
-            label: "2005", title: "Export Operations",
+            label: "2005",
+            title: "Export Operations",
             description: "Began international export operations, shipping premium processed minerals to markets in the Middle East and Southeast Asia.",
             image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&q=80&w=800"
         },
         {
-            label: "2015", title: "Sustainable Mining",
+            label: "2015",
+            title: "Sustainable Mining",
             description: "Implemented industry-leading sustainable mining practices and eco-friendly processing technologies to minimize environmental impact.",
             image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&q=80&w=800"
         },
         {
-            label: "2024", title: "Global Leadership",
+            label: "2024",
+            title: "Global Leadership",
             description: "Recognized as a global leader in sustainable mineral processing, with operations spanning across 15 countries and 3 continents.",
             image: "https://images.unsplash.com/photo-1518398046578-8cca57782e17?auto=format&fit=crop&q=80&w=800"
         }
     ];
-
-    // 1. Triplicate the data to create the infinite loop track
-    const originalLength = originalData.length;
-    const milestonesData = [...originalData, ...originalData, ...originalData];
 
     const wrapper = document.getElementById('milestones-wrapper');
     const container = document.getElementById('timeline-container');
     const btnPrev = document.getElementById('btn-prev');
     const btnNext = document.getElementById('btn-next');
 
-    // Start at the first item of the MIDDLE set
-    let activeIndex = originalLength;
-    let scrollTimeout;
+    let activeIndex = 0;
 
-    // 2. Generate HTML (Connecting lines are now on EVERY item since it loops)
+    // Generate HTML
     milestonesData.forEach((milestone, index) => {
+
         const html = `
         <div class="milestone-item is-future flex flex-col items-start w-[85vw] sm:w-[45vw] md:w-[35vw] lg:w-[28vw] shrink-0 relative cursor-pointer group" data-index="${index}">
-          <div class="milestone-label px-5 py-1.5 rounded-full border text-sm font-medium mb-6">
-            ${milestone.label}
-          </div>
 
-          <div class="relative flex items-center w-full h-8 mb-8">
-            <div class="milestone-dot w-3.5 h-3.5 rounded-full border-[3px] border-white z-10 relative shrink-0"></div>
-            <div class="absolute left-3.5 right-[-1.5rem] md:right-[-2.5rem] h-[2px] bg-gray-200 top-1/2 -translate-y-1/2 overflow-hidden">
-                <div class="milestone-line w-full h-full bg-[#C8102E]"></div>
-            </div>
-          </div>
-
-          <div class="milestone-card bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl w-full border border-gray-100">
-            <div class="h-48 sm:h-56 overflow-hidden relative bg-gray-100">
-              <img src="${milestone.image}" alt="${milestone.title}" class="milestone-img w-full h-full object-cover" />
-              <div class="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-300"></div>
-            </div>
-            <div class="p-6 md:p-8">
-              <h3 class="card-title text-xl md:text-2xl font-bold mb-3 leading-tight">${milestone.title}</h3>
-              <p class="text-gray-600 text-sm md:text-base leading-relaxed">${milestone.description}</p>
-              <div class="learn-more-wrapper">
-                <button class="flex items-center text-[#C8102E] font-semibold text-sm hover:text-red-800 transition-colors">
-                  Learn More 
-                  <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                </button>
-              </div>
-            </div>
-          </div>
+        <div class="milestone-label px-5 py-1.5 rounded-full border text-sm font-medium mb-6">
+        ${milestone.label}
         </div>
-      `;
-        wrapper.insertAdjacentHTML('beforeend', html);
+
+        <div class="relative flex items-center w-full h-8 mb-8">
+
+        <div class="milestone-dot w-3.5 h-3.5 rounded-full border-[3px] border-white z-10 relative shrink-0"></div>
+
+        <div class="absolute left-3.5 right-[-1.5rem] md:right-[-2.5rem] h-[2px] bg-gray-200 top-1/2 -translate-y-1/2 overflow-hidden">
+        <div class="milestone-line w-full h-full bg-[#C8102E]"></div>
+        </div>
+
+        </div>
+
+        <div class="milestone-card bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl w-full border border-gray-100">
+
+        <div class="h-48 sm:h-56 overflow-hidden relative bg-gray-100">
+        <img src="${milestone.image}" class="milestone-img w-full h-full object-cover"/>
+        </div>
+
+        <div class="p-6 md:p-8">
+
+        <h3 class="text-xl md:text-2xl font-bold mb-3">${milestone.title}</h3>
+
+        <p class="text-gray-600 text-sm md:text-base">${milestone.description}</p>
+
+        </div>
+
+        </div>
+
+        </div>
+        `;
+
+        wrapper.insertAdjacentHTML("beforeend", html);
+
     });
 
-    const items = document.querySelectorAll('.milestone-item');
+    const items = document.querySelectorAll(".milestone-item");
 
-    // Smooth Mouse Wheel Setup
-    let targetScroll = container.scrollLeft;
-    let isScrolling = false;
-    let animationFrameId;
-
-    // 3. Update States (Restored to Center Math)
     function updateStates() {
+
         const containerCenter = container.scrollLeft + container.clientWidth / 2;
+
         let closestIndex = 0;
         let minDistance = Infinity;
 
         items.forEach((item, index) => {
+
             const itemCenter = item.offsetLeft + item.clientWidth / 2;
+
             const distance = Math.abs(containerCenter - itemCenter);
+
             if (distance < minDistance) {
                 minDistance = distance;
                 closestIndex = index;
             }
+
         });
 
-        if (closestIndex !== activeIndex) {
-            activeIndex = closestIndex;
-            items.forEach((item, index) => {
-                item.classList.remove('is-active', 'is-past', 'is-future');
-                if (index === activeIndex) {
-                    item.classList.add('is-active');
-                } else if (index < activeIndex) {
-                    item.classList.add('is-past');
-                } else {
-                    item.classList.add('is-future');
-                }
+        activeIndex = closestIndex;
+
+        items.forEach((item, index) => {
+
+            item.classList.remove("is-active", "is-past", "is-future");
+
+            if (index === activeIndex) {
+                item.classList.add("is-active");
+            } else if (index < activeIndex) {
+                item.classList.add("is-past");
+            } else {
+                item.classList.add("is-future");
+            }
+
+        });
+
+        // progress line
+        // const progress = (activeIndex / (items.length - 1)) * 100;
+
+        // document.querySelectorAll(".milestone-line").forEach(line => {
+        //     line.style.width = progress + "%";
+        // });
+        // progress line fix
+        const activeItem = items[activeIndex];
+
+        if (activeItem) {
+
+            const dot = activeItem.querySelector(".milestone-dot");
+
+            const dotPosition =
+                activeItem.offsetLeft +
+                dot.offsetLeft +
+                dot.clientWidth / 2;
+
+            document.querySelectorAll(".milestone-line").forEach(line => {
+                line.style.width = dotPosition + "px";
             });
+
         }
+
     }
 
-    // 4. Scroll to specific index
     function scrollToIndex(index) {
+
         const item = items[index];
-        if (item) {
-            const scrollPosition = item.offsetLeft - (container.clientWidth / 2) + (item.clientWidth / 2);
-            container.scrollTo({ left: scrollPosition, behavior: 'smooth' });
-            targetScroll = scrollPosition; // Keep wheel in sync
-        }
+
+        const scrollPosition = item.offsetLeft - (container.clientWidth / 2) + (item.clientWidth / 2);
+
+        container.scrollTo({
+            left: scrollPosition,
+            behavior: "smooth"
+        });
+
     }
 
-    // 5. Infinite Jump Logic (Teleports user transparently to middle set)
-    function checkAndJumpBounds(nextIndex) {
-        const setWidth = items[originalLength].offsetLeft - items[0].offsetLeft;
+    // buttons
 
-        if (nextIndex < originalLength) {
-            // Scrolled too far left, teleport right
-            container.scrollLeft += setWidth;
-            targetScroll += setWidth;
-            activeIndex += originalLength;
-            return nextIndex + originalLength;
-        } else if (nextIndex >= originalLength * 2) {
-            // Scrolled too far right, teleport left
-            container.scrollLeft -= setWidth;
-            targetScroll -= setWidth;
-            activeIndex -= originalLength;
-            return nextIndex - originalLength;
+    function handleNavigation(direction) {
+
+        let nextIndex = activeIndex + direction;
+
+        if (nextIndex >= items.length) {
+            nextIndex = 0;
         }
-        return nextIndex;
+
+        if (nextIndex < 0) {
+            nextIndex = items.length - 1;
+        }
+
+        scrollToIndex(nextIndex);
+
     }
 
-    // 6. Event Listeners
-    container.addEventListener('scroll', () => {
+    btnPrev.addEventListener("click", () => handleNavigation(-1));
+    btnNext.addEventListener("click", () => handleNavigation(1));
+
+    items.forEach((item, index) => {
+        item.addEventListener("click", () => {
+            scrollToIndex(index);
+        });
+    });
+
+
+    // wheel scroll fix
+
+    container.addEventListener("wheel", (e) => {
+
+        if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+
+            const atStart = container.scrollLeft <= 0;
+            const atEnd = container.scrollLeft + container.clientWidth >= container.scrollWidth;
+
+            if (!(atStart && e.deltaY < 0) && !(atEnd && e.deltaY > 0)) {
+                e.preventDefault();
+            }
+
+            container.scrollLeft += e.deltaY;
+
+        }
+
+    }, {
+        passive: false
+    });
+
+
+    container.addEventListener("scroll", updateStates);
+
+    // initial center
+
+    setTimeout(() => {
+
+        scrollToIndex(0);
         updateStates();
 
-        clearTimeout(scrollTimeout);
-        scrollTimeout = setTimeout(() => {
-            // Only trigger the auto-snap if the user has completely stopped wheeling
-            if (!isScrolling) {
-                container.style.scrollBehavior = 'smooth'; // Re-enable smooth for the snap
-                const newIndex = checkAndJumpBounds(activeIndex);
-                if (newIndex !== activeIndex) {
-                    updateStates();
-                }
-                scrollToIndex(newIndex);
-            }
-        }, 100); // Reduced delay for a snappier feeling
-    });
-
-    // Buttons
-    function handleNavigation(direction) {
-        container.style.scrollBehavior = 'auto'; // Instant jump for infinite bounds
-        let nextIndex = activeIndex + direction;
-        nextIndex = checkAndJumpBounds(nextIndex);
-
-        // Force smooth scroll for the final visible movement
-        requestAnimationFrame(() => {
-            container.style.scrollBehavior = 'smooth';
-            scrollToIndex(nextIndex);
-            // Sync the wheel target so it doesn't jump backwards if you scroll immediately after clicking
-            targetScroll = items[nextIndex].offsetLeft - (container.clientWidth / 2) + (items[nextIndex].clientWidth / 2);
-        });
-    }
-
-    btnPrev.addEventListener('click', () => handleNavigation(-1));
-    btnNext.addEventListener('click', () => handleNavigation(1));
-
-    // Click on item
-    items.forEach((item, index) => {
-        item.addEventListener('click', () => {
-            container.style.scrollBehavior = 'auto';
-            const nextIndex = checkAndJumpBounds(index);
-
-            requestAnimationFrame(() => {
-                container.style.scrollBehavior = 'smooth';
-                scrollToIndex(nextIndex);
-                targetScroll = items[nextIndex].offsetLeft - (container.clientWidth / 2) + (items[nextIndex].clientWidth / 2);
-            });
-        });
-    });
-
-    // Custom smooth scroll wheel function
-    function smoothScroll() {
-        const currentScroll = container.scrollLeft;
-        const diff = targetScroll - currentScroll;
-
-        // INCREASING SPEED: Changed from 0.08 to 0.18 for a much faster, smoother glide
-        if (Math.abs(diff) > 1) {
-            container.scrollLeft = currentScroll + diff * 0.18;
-            animationFrameId = requestAnimationFrame(smoothScroll);
-        } else {
-            container.scrollLeft = targetScroll;
-            isScrolling = false;
-        }
-    }
-
-    container.addEventListener('wheel', (e) => {
-        if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-            e.preventDefault();
-
-            // CRITICAL FIX: Turn off CSS smooth scrolling while using JS wheel.
-            // If we don't do this, they fight each other and cause severe lag.
-            container.style.scrollBehavior = 'auto';
-
-            if (!isScrolling) targetScroll = container.scrollLeft;
-
-            // Adjusted the scroll distance multiplier for a more natural feel
-            targetScroll = Math.max(0, Math.min(
-                targetScroll + e.deltaY * 1.2,
-                container.scrollWidth - container.clientWidth
-            ));
-
-            if (!isScrolling) {
-                isScrolling = true;
-                animationFrameId = requestAnimationFrame(smoothScroll);
-            }
-        }
-    }, { passive: false });
-
-    // 7. Initialization: Instantly jump to the center set on load
-    setTimeout(() => {
-        const startItem = items[activeIndex];
-        const initialScrollPos = startItem.offsetLeft - (container.clientWidth / 2) + (startItem.clientWidth / 2);
-
-        container.style.scrollBehavior = 'auto'; // ensure no animation on load
-        container.scrollLeft = initialScrollPos;
-        targetScroll = initialScrollPos;
-
-        // Force the visual states immediately based on the starting activeIndex
-        items.forEach((item, index) => {
-            item.classList.remove('is-active', 'is-past', 'is-future');
-            if (index === activeIndex) {
-                item.classList.add('is-active');
-            } else if (index < activeIndex) {
-                item.classList.add('is-past');
-            } else {
-                item.classList.add('is-future');
-            }
-        });
-
-        // Restore smooth behavior for future interactions
-        setTimeout(() => {
-            container.style.scrollBehavior = 'smooth';
-        }, 50);
-
-    }, 50);
-
+    }, 100);
 </script>
 
 <?php

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -30,6 +30,7 @@
                             graydark: '#3f3f46',
                             buttondark: '#2a2a2a'
                         }
+
                     }
                 }
             }
@@ -40,18 +41,17 @@
 </head>
 
 <body class="font-sans text-gray-800 bg-white overflow-x-hidden">
-
-    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 bg-white shadow-md py-2">
+    <nav id="navbar" class="sticky top-0 w-full z-50 transition-all duration-300 bg-white shadow-md py-2">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <a class="flex-shrink-0 flex items-center cursor-pointer" href="index.php">
-                    <img src="images/logo-bull-strong.png" alt="">
+                    <img src="images/logo-bull-strong.png" alt="logo">
                 </a>
 
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="about.php" class="text-gray-700 hover:text-brand-red font-semibold transition">About</a>
 
-                    <div class="relative group py-6">
+                    <!-- <div class="relative group py-6">
                         <button
                             class="text-gray-700 group-hover:text-brand-red font-semibold transition flex items-center gap-1">
                             Products <i class="fa-solid fa-chevron-down text-xs"></i>
@@ -63,16 +63,68 @@
                                 Putty</a>
                             <a href="#"
                                 class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">Emulsions</a>
-                            <a href="#"
-                                class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">Tile
-                                Adhesives</a>
+                           
+                            <a href="aac-block-adhesive.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">aac-block-adhesive</a>
+                            <a href="adhesive.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">adhesive</a>
+                            <a href="epoxy-grout.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">epoxy-grout</a>
+                            <a href="ready-mix-plaster.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">ready-mix-plaster</a>
+                            <a href="sbr-latex.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">sbr-latex</a>
+                            <a href="tile-cleaner.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">tile-cleaner</a>
+                            <a href="tile-grout.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">tile-grout</a>
+
+                        </div>
+                    </div> -->
+                    <div class="relative group py-6">
+                        <button class="text-gray-700 group-hover:text-brand-red font-semibold transition flex items-center gap-1">
+                            Products <i class="fa-solid fa-chevron-down text-xs"></i>
+                        </button>
+
+                        <!-- Mega Menu Container -->
+                        <div class="absolute top-full left-[-290px] w-[800px] max-w-[90vw] bg-gray-50 shadow-2xl rounded-b-lg border-t-4 border-brand-red opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top translate-y-2 group-hover:translate-y-0 flex z-50 overflow-hidden">
+
+                            <!-- Left Side: Featured Image -->
+                            <div class="w-1/3 bg-gray-200 relative overflow-hidden hidden md:block">
+                                <!-- Replace with your actual product or building image -->
+                                <img src="images/tile-care-product-1.png" alt="Our Products" class="w-full h-full object-cover">
+                                <!-- Optional Dark Overlay to match the vibe of the reference image -->
+                                <div class="absolute inset-0 bg-black bg-opacity-20 mix-blend-multiply"></div>
+                            </div>
+
+                            <!-- Right Side: Links & Categories -->
+                            <div class="w-full md:w-2/3 p-8 flex flex-col gap-4">
+                                <!-- Category 1: Wall Care -->
+                                <div>
+                                    <h3 class="text-brand-red font-semibold text-lg mb-4">Tile Care Products</h3>
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
+                                        <a href="adhesive.php" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Tile Adhesive</a>
+                                        <a href="tile-grout.php" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Tile Grout</a>
+                                        <a href="epoxy-grout.php" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Epoxy Grout</a>
+                                        <a href="tile-cleaner.php" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Tile Cleaner</a>
+                                        <a href="sbr-latex.php" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">SBR Latex </a>
+                                    </div>
+                                </div>
+
+                                <!-- Category 2: Tile Care -->
+                                <div>
+                                    <h3 class="text-brand-red font-semibold text-lg mb-4">Wall Care Products</h3>
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
+                                        <a href="aac-block-adhesive.php" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">AAC (Block/Construction material)</a>
+                                        <a href="#" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Acrylic Distemper</a>
+                                        <a href="#" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Acrylic Texture</a>
+                                        <a href="#" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Exterior Emulsion</a>
+                                        <a href="#" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Plast Putty</a>
+                                        <a href="#" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Primer</a>
+                                        <a href="ready-mix-plaster.php" class="text-sm font-medium text-gray-800 hover:text-brand-red transition-colors block">Ready Mix</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <a href="#blog" class="text-gray-700 hover:text-brand-red font-semibold transition">Blog</a>
+                    <!-- <a href="#blog" class="text-gray-700 hover:text-brand-red font-semibold transition">Blog</a> -->
                     <a href="#" class="text-gray-700 hover:text-brand-red font-semibold transition">Become
                         Distributor</a>
-                    <a href="#contact"
+                    <a href="contact-us.php"
                         class="bg-brand-red hover:bg-brand-darkred text-white px-6 py-2.5 rounded-lg font-bold transition transform hover:scale-105 shadow-lg shadow-red-500/30">Contact
                         Us</a>
                 </div>
@@ -93,8 +145,8 @@
                     class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">About</a>
                 <a href="#products"
                     class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Products</a>
-                <a href="#blog"
-                    class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Blog</a>
+                <!-- <a href="#blog"
+                    class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Blog</a> -->
                 <a href="#"
                     class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Become
                     Distributor</a>
@@ -163,7 +215,7 @@
             </div>
 
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-                <p>&copy; 2024 Bull Strong Industries. All rights reserved.</p>
+                <p>&copy; 2026 Bull Strong Industries. All rights reserved.</p>
                 <div class="flex gap-4 mt-4 md:mt-0">
                     <a href="#" class="hover:text-white transition">Privacy Policy</a>
                     <a href="#" class="hover:text-white transition">Terms of Service</a>
@@ -171,12 +223,16 @@
             </div>
         </div>
     </footer>
-
+<!-- Back To Top Button -->
+<button id="backToTop"
+  class="fixed bottom-6 right-6 hidden bg-black text-white p-2 w-10 h-10 z-30 rounded-full shadow-lg hover:bg-gray-800 transition duration-300">
+  ↑
+</button>
 
     <!-- Work -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             const referenceElement = document.getElementById('reference-element');
             const paginationContainer = document.getElementById('pagination-container');
             let swiperInstance;
@@ -211,19 +267,31 @@
                     },
 
                     breakpoints: {
-                        0: { slidesPerView: 1.2, spaceBetween: 16 },
-                        640: { slidesPerView: 2.2, spaceBetween: 20 },
-                        1024: { slidesPerView: 3.5, spaceBetween: 24 },
-                        1280: { slidesPerView: 4.5, spaceBetween: 32 },
+                        0: {
+                            slidesPerView: 1.2,
+                            spaceBetween: 16
+                        },
+                        640: {
+                            slidesPerView: 2.2,
+                            spaceBetween: 20
+                        },
+                        1024: {
+                            slidesPerView: 3.5,
+                            spaceBetween: 24
+                        },
+                        1280: {
+                            slidesPerView: 4.5,
+                            spaceBetween: 32
+                        },
                     },
 
                     // Remove the initial-state class once the slider starts doing anything
                     on: {
-                        sliderFirstMove: function () {
+                        sliderFirstMove: function() {
                             const swiperEl = document.querySelector('.mySwiper');
                             if (swiperEl) swiperEl.classList.remove('initial-state');
                         },
-                        slideChangeTransitionStart: function () {
+                        slideChangeTransitionStart: function() {
                             const swiperEl = document.querySelector('.mySwiper');
                             if (swiperEl) swiperEl.classList.remove('initial-state');
                         }
@@ -276,7 +344,7 @@
 
     <!-- Work video -->
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
 
             let videoSwiperInstance;
 
@@ -310,20 +378,32 @@
                     },
 
                     breakpoints: {
-                        0: { slidesPerView: 1.5, spaceBetween: 16 },
-                        640: { slidesPerView: 2.5, spaceBetween: 16 },
-                        1024: { slidesPerView: 4, spaceBetween: 24 },
-                        1280: { slidesPerView: 5, spaceBetween: 24 }
+                        0: {
+                            slidesPerView: 1.5,
+                            spaceBetween: 16
+                        },
+                        640: {
+                            slidesPerView: 2.5,
+                            spaceBetween: 16
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 24
+                        },
+                        1280: {
+                            slidesPerView: 5,
+                            spaceBetween: 24
+                        }
                     },
 
                     // When the slider starts moving, we remove the 'initial-state-video' class
                     // so the clones magically appear, creating a perfect infinite loop.
                     on: {
-                        sliderFirstMove: function () {
+                        sliderFirstMove: function() {
                             const swiperEl = document.querySelector('.my-video-slider');
                             if (swiperEl) swiperEl.classList.remove('initial-state-video');
                         },
-                        slideChangeTransitionStart: function () {
+                        slideChangeTransitionStart: function() {
                             const swiperEl = document.querySelector('.my-video-slider');
                             if (swiperEl) swiperEl.classList.remove('initial-state-video');
                         }
@@ -373,7 +453,30 @@
         });
     </script>
 
+<script>
 
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+
+  if (window.scrollY > 300) {
+    backToTop.classList.remove("hidden");
+  } else {
+    backToTop.classList.add("hidden");
+  }
+
+});
+
+backToTop.addEventListener("click", () => {
+
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+
+});
+
+</script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
@@ -404,25 +507,6 @@
                     navbar.classList.remove('py-0');
                 }
             });
-
-            // --- Product Slider Controls ---
-            const sliderTrack = document.getElementById('product-track');
-            const prevProdBtn = document.getElementById('prev-prod');
-            const nextProdBtn = document.getElementById('next-prod');
-
-            const scrollAmount = () => {
-                const card = sliderTrack.querySelector('div');
-                return card.offsetWidth + 24;
-            };
-
-            if (prevProdBtn && nextProdBtn && sliderTrack) {
-                prevProdBtn.addEventListener('click', () => {
-                    sliderTrack.scrollBy({ left: -scrollAmount(), behavior: 'smooth' });
-                });
-                nextProdBtn.addEventListener('click', () => {
-                    sliderTrack.scrollBy({ left: scrollAmount(), behavior: 'smooth' });
-                });
-            }
 
             // --- Number Counter Animation ---
             const statsSection = document.getElementById('stats');
@@ -458,7 +542,9 @@
                         animateCounters();
                         observer.unobserve(statsSection);
                     }
-                }, { threshold: 0.5 });
+                }, {
+                    threshold: 0.5
+                });
 
                 counterObserver.observe(statsSection);
             }
@@ -471,7 +557,7 @@
                 rootMargin: "0px 0px -50px 0px"
             };
 
-            const revealOnScroll = new IntersectionObserver(function (entries, observer) {
+            const revealOnScroll = new IntersectionObserver(function(entries, observer) {
                 entries.forEach(entry => {
                     if (!entry.isIntersecting) return;
                     entry.target.classList.add('active');

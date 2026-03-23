@@ -326,3 +326,10 @@
       .is-future .card-title {
           color: #4B5563;
       }
+      .bg-brandRed-btn {
+        background: linear-gradient(103.81deg, #ED3136 -6.17%, #B32125 104.41%);
+      }
+      .border-bullred,
+      .bullred {
+        background-color: #E51A22;
+      }
