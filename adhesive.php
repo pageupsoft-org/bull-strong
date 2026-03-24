@@ -49,34 +49,22 @@ ob_start();
             <div class="bg-gray-100 rounded-lg overflow-hidden mb-8 h-64 md:h-96 flex items-center justify-center">
                 <img src="images/ready-mix.png" alt="Bull Strong Tile Adhesive Bags" class="object-cover w-full h-full">
             </div>
-            <!-- Product Title & Quick Specs -->
-            <!-- <h1 class="text-3xl md:text-4xl font-bold mb-2">Bull Strong <span class="text-brandRed">Tile Adhesive</span></h1>
-            <p class="text-brandGrayText mb-0 text-sm md:text-base w-96">Strong Bonding for Tile & Stone Fixation</p>
-            <h5 class="mb-6 font-semibold">Product Range (5 Varieties)</h5>
-            
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-sm text-brandDark font-medium mb-12">
-                <div class="flex items-center gap-2"><i class="fa-regular fa-circle-check text-[#b01620]"></i> Silver – Standard Tile Adhesive</div>
-                <div class="flex items-center gap-2"><i class="fa-regular fa-circle-check text-[#b01620]"></i> Gold – Ceramic & Vitrified Tile Adhesive</div>
-                <div class="flex items-center gap-2"><i class="fa-regular fa-circle-check text-[#b01620]"></i> Diamond – High Strength Tile Adhesive</div>
-                <div class="flex items-center gap-2"><i class="fa-regular fa-circle-check text-[#b01620]"></i> Platinum – Heavy Duty Tile Adhesive</div>
-                <div class="flex items-center gap-2"><i class="fa-regular fa-circle-check text-[#b01620]"></i> Premium Platinum – Premium Performance Adhesive</div>
-            </div> -->
-
+           
             <!-- tabinations  -->
             <div class="max-w-4xl mx-auto">
                 <!-- Tabs -->
                 <div class="flex flex-wrap border-b border-gray-100">
                     <button class="tab-btn px-4 py-2 text-md font-semibold border-b-2 border-brandRed text-brandRed" onclick="showTab('gold')">
-                        <img src="images/tile-care-product-1.png" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2" onclick="showTab('gold')">
+                        <img src="images/adhesive-variation/gold.jpg" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2" onclick="showTab('gold')">
                         Gold</button>
                     <button class="tab-btn px-4 py-2 text-md font-semibold text-gray-600" onclick="showTab('silver')">
-                        <img src="images/tile-care-product-1.png" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2" onclick="showTab('silver')">Silver</button>
+                        <img src="images/adhesive-variation/silver.jpg" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2" onclick="showTab('silver')">Silver</button>
                     <button class="tab-btn px-4 py-2 text-md font-semibold text-gray-600" onclick="showTab('diamond')">
-                        <img src="images/tile-care-product-1.png" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2">Diamond</button>
+                        <img src="images/adhesive-variation/diamond.jpg" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2">Diamond</button>
                     <button class="tab-btn px-4 py-2 text-md font-semibold text-gray-600" onclick="showTab('platinum')">
-                        <img src="images/tile-care-product-1.png" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2">Platinum</button>
+                        <img src="images/adhesive-variation/platinum.jpg" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2">Platinum</button>
                     <button class="tab-btn px-4 py-2 text-md font-semibold text-gray-600" onclick="showTab('premium')">
-                        <img src="images/tile-care-product-1.png" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2">Premium Platinum</button>
+                        <img src="images/adhesive-variation/premium-platinum.jpg" alt="product" class="w-20 rounded-lg h-20 shadow-lg border border-100 mb-2">Premium Platinum</button>
                 </div>
 
                 <!-- Tab Content -->

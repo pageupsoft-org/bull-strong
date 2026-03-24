@@ -51,7 +51,7 @@ ob_start();
 
             <!-- Product Image -->
             <div class="bg-gray-100 rounded-lg overflow-hidden mb-8 h-64 md:h-96 flex items-center justify-center">
-                <img src="images/ready-mix.png" alt="Bull Strong Multicrete SBR Latex" class="object-cover w-full h-full">
+                <img src="images/product-detail/sbr-latex_.jpg" alt="Bull Strong Multicrete SBR Latex" class="object-cover w-full h-full">
             </div>
 
             <!-- Product Title & Quick Specs -->

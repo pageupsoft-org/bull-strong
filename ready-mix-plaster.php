@@ -38,349 +38,349 @@ ob_start();
     }
 </style>
 
-    <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <!-- Top Section: Image & Sidebar Forms -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
-            <!-- Left Column: Product Info -->
-            <div class="lg:col-span-8">
-                <!-- Product Image -->
-                <div class="bg-gray-100 rounded-lg overflow-hidden mb-8 h-64 md:h-96 flex items-center justify-center">
-                    <img src="images/ready-mix.png" alt="Bull Strong Ready Mix Plaster (RMP)" class="object-cover w-full h-full">
+<!-- Main Content -->
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <!-- Top Section: Image & Sidebar Forms -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <!-- Left Column: Product Info -->
+        <div class="lg:col-span-8">
+            <!-- Product Image -->
+            <div class="bg-gray-100 rounded-lg overflow-hidden mb-8 h-64 md:h-96 flex items-center justify-center">
+                <img src="images/product-detail/ready-mix.jpg" alt="Bull Strong Ready Mix Plaster (RMP)" class="object-cover w-full h-full border border-gray-100">
+            </div>
+            <!-- Product Title & Quick Specs -->
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">
+                Bull Strong
+                <span class="text-brandRed"> Ready Mix Plaster (RMP)</span>
+            </h1>
+            <p class="text-brandGrayText mb-6 text-sm md:text-base md:w-96">
+                High Performance Ready-to-Use Plaster for Internal & External Applications
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-sm text-brandDark font-medium mb-12">
+                <div class="flex items-center gap-2">
+                    <i class="fa-regular fa-circle-check text-[#b01620]"></i>
+                    Fast & Economical
                 </div>
-                <!-- Product Title & Quick Specs -->
-                <h1 class="text-3xl md:text-4xl font-bold mb-2">
-                    Bull Strong
-                    <span class="text-brandRed"> Ready Mix Plaster (RMP)</span>
-                </h1>
-                <p class="text-brandGrayText mb-6 text-sm md:text-base md:w-96">
-                    High Performance Ready-to-Use Plaster for Internal & External Applications
-                </p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-sm text-brandDark font-medium mb-12">
-                    <div class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#b01620]"></i>
-                        Fast & Economical
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#b01620]"></i>
-                        Water Retaining & Self-Curing
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#b01620]"></i>
-                        High Bond Strength
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#b01620]"></i>
-                        Improved Strength
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#b01620]"></i>
-                        Easy Application
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <i class="fa-regular fa-circle-check text-[#b01620]"></i>
-                        Compact & Smooth Finish
-                    </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-regular fa-circle-check text-[#b01620]"></i>
+                    Water Retaining & Self-Curing
                 </div>
-                <!-- Section: Product Features -->
-                <div class="mb-12">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-6 h-1 bg-[#b01620]"></div>
-                        <h2 class="text-2xl font-semibold">Product Features</h2>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 p-4 text-md rounded-lg text-brandGrayText bg-[#F3F3F3]">
-                        <div class="flex gap-3 p-2">
-                            <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
-                            <p>Factory-prepared ready-to-use plaster mortar.</p>
-                        </div>
-                        <div class="flex gap-3 p-2">
-                            <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
-                            <p>
-                                Suitable for internal and external plastering applications.
-                            </p>
-                        </div>
-                        <div class="flex gap-3 p-2">
-                            <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
-                            <p>
-                                Provides strong adhesion and crack-free plastering.
-                            </p>
-                        </div>
-                        <div class="flex gap-3 p-2">
-                            <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
-                            <p>Ensures smooth and compact surface finish.</p>
-                        </div>
-                        <div class="flex gap-3 p-2">
-                            <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
-                            <p>Reduces rebound losses during application.</p>
-                        </div>
-                        <div class="flex gap-3 p-2">
-                            <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
-                            <p>
-                                Eliminates on-site sand and cement mixing errors.
-                            </p>
-                        </div>
-                        <div class="flex gap-3 p-2">
-                            <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
-                            <p>
-                                Improves construction speed and productivity.
-                            </p>
-                        </div>
-                    </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-regular fa-circle-check text-[#b01620]"></i>
+                    High Bond Strength
                 </div>
-                <!-- Section: Technical Specifications -->
-                <div class="mb-12">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-6 h-1 bg-[#b01620]"></div>
-                        <h2 class="text-2xl font-semibold">Technical Specifications</h2>
-                    </div>
-                    <div class="table-container overflow-x-auto border border-gray-200 rounded-lg">
-                        <table class="w-full text-md text-left">
-                            <thead class="bg-[#1F2937] text-white">
-                                <tr>
-                                    <th class="px-6 py-4 font-medium">Property</th>
-                                    <th class="px-6 py-4 font-medium">Specification</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-200 bg-[#F9F9F9]">
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Product Type</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Ready Mix Plaster (RMP)</td>
-                                </tr>
-                                <tr class="bg-[#F3F3F3]">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Application</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Wall, Column, Ceiling Plastering</td>
-                                </tr>
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Suitable Areas</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Interior & Exterior Surfaces</td>
-                                </tr>
-                                <tr class="bg-[#F3F3F3]">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Water Mixing</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Approx. 8 Litres per 40 kg bag</td>
-                                </tr>
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Reaction Time</td>
-                                    <td class="px-6 py-4 text-brandGrayText">3 Minutes</td>
-                                </tr>
-                                <tr class="bg-[#F3F3F3]">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Colour</td>
-                                    <td class="px-6 py-4 text-brandGrayText">
-                                        Grey
-                                    </td>
-                                </tr>
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-brandDark">
-                                        Packaging
-                                    </td>
-                                    <td class="px-6 py-4 text-brandGrayText">
-                                        40 kg Bag
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-regular fa-circle-check text-[#b01620]"></i>
+                    Improved Strength
                 </div>
-                <!-- Section: Coverage -->
-                <div class="mb-12">
-                    <div class="flex flex-col gap-3 mb-6">
-                        <div class="flex items-center gap-3 ">
-                            <div class="w-6 h-1 bg-[#b01620]"></div>
-                            <h2 class="text-2xl font-semibold">Coverage</h2>
-                        </div>
-                        <span class="text-brandGrayText text-sm ">(Approximate coverage of Bull Strong Ready Mix Plaster per 40 kg bag)</span>
-                    </div>
-                    <div class="table-container overflow-x-auto border border-gray-200 rounded-lg">
-                        <table class="w-full text-md text-left">
-                            <thead class="bg-[#1F2937] text-white">
-                                <tr class="text-sm">
-                                    <th class="px-6 py-4 font-medium">Surface Type</th>
-                                    <th class="px-6 py-4 font-medium">Coverage</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-200 text-sm bg-[#F9F9F9]">
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Light Weight Blocks (10–12 mm thickness)</td>
-                                    <td class="px-6 py-4 text-brandGrayText">17 – 18 sq.ft</td>
-                                </tr>
-                                <tr class="bg-white">
-                                    <td class="px-6 py-4 font-medium text-brandDark">Brick Wall (10–12 mm thickness)</td>
-                                    <td class="px-6 py-4 text-brandGrayText">
-                                        14 – 15 sq.ft
-                                    </td>
-                                </tr>
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-brandDark">RCC Surface (10 mm thickness)</td>
-                                    <td class="px-6 py-4 text-brandGrayText">20 – 22 sq.ft</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-regular fa-circle-check text-[#b01620]"></i>
+                    Easy Application
                 </div>
-                <!-- Section: Performance Comparison -->
-                <div class="mb-12">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-6 h-1 bg-[#b01620]"></div>
-                        <h2 class="text-2xl font-semibold">Performance Comparison</h2>
-                    </div>
-                    <div class="table-container overflow-x-auto border border-gray-200 rounded-lg">
-                        <table class="w-full text-sm text-left">
-                            <thead class="bg-[#1F2937] text-white">
-                                <tr>
-                                    <th class="px-6 py-4 font-medium">Parameter</th>
-                                    <th class="px-6 py-4 font-medium">Conventional Site Mix</th>
-                                    <th class="px-6 py-4 font-medium">Bull Strong Ready Mix Plaster</th>
-                                </tr>
-                            </thead>
-                            <tbody class="divide-y divide-gray-200">
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-[#1F2937]">Rain Water Penetration</td>
-                                    <td class="px-6 py-4 text-brandGrayText">
-                                        Porous due to coarse sand
-                                    </td>
-                                    <td class="px-6 py-4 text-green-600 font-medium">Dense surface with better protection</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-6 py-4 font-medium text-[#1F2937]">Surface Smoothness</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Uneven finish</td>
-                                    <td class="px-6 py-4 text-green-600 font-medium">Smooth & uniform finish</td>
-                                </tr>
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-[#1F2937]">Crack Formation</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Higher chances due to site mixing</td>
-                                    <td class="px-6 py-4 text-green-600 font-medium">Reduced crack formation</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-6 py-4 font-medium text-[#1F2937]">Cement-Sand Ratio</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Risk of mixing errors</td>
-                                    <td class="px-6 py-4 text-green-600 font-medium">Factory controlled consistency</td>
-                                </tr>
-                                <tr class="bg-brandLightGray">
-                                    <td class="px-6 py-4 font-medium text-[#1F2937]">Plaster Thickness</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Difficult to control</td>
-                                    <td class="px-6 py-4 text-green-600 font-medium">Uniform application</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-6 py-4 font-medium text-[#1F2937]">Adhesion</td>
-                                    <td class="px-6 py-4 text-brandGrayText">Reduced due to silt in sand</td>
-                                    <td class="px-6 py-4 text-green-600 font-medium">Strong and reliable bonding</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-regular fa-circle-check text-[#b01620]"></i>
+                    Compact & Smooth Finish
                 </div>
-                <!-- Section: Usage Method -->
-                <div class="mb-12">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-6 h-1 bg-[#b01620]"></div>
-                        <h2 class="text-2xl font-semibold">Usage Method</h2>
-                    </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
-                            <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">1</div>
-                            <h3 class="font-bold text-md mb-1">
-                                Mortar Mixing
-                            </h3>
-                            <p class="text-sm text-brandGrayText">
-                                Mix Bull Strong Ready Mix Plaster with approximately 8 litres of clean water per 40 kg bag to obtain a smooth plaster mix.
-                            </p>
-                        </div>
-                        <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
-                            <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">2</div>
-                            <h3 class="font-bold text-md mb-1">Reaction Time</h3>
-                            <p class="text-sm text-brandGrayText">Allow the mixture to stand for about 3 minutes before application.</p>
-                        </div>
-                        <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
-                            <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">3</div>
-                            <h3 class="font-bold text-md mb-1">
-                                Surface Preparation
-                            </h3>
-                            <p class="text-sm text-brandGrayText">Ensure the surface is clean, dust-free, and properly prepared before applying the plaster.</p>
-                        </div>
-                        <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
-                            <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">4</div>
-                            <h3 class="font-bold text-md mb-1">
-                                Plaster Application
-                            </h3>
-                            <p class="text-sm text-brandGrayText">Apply the plaster evenly across the surface and spread properly to achieve the required thickness.</p>
-                        </div>
-                        <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
-                            <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">5</div>
-                            <h3 class="font-bold text-md mb-1">Smooth Finishing</h3>
-                            <p class="text-sm text-brandGrayText">
-                                Remove air gaps and smooth the plaster surface for proper alignment and finish.
-                            </p>
-                        </div>
-                        <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
-                            <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">6</div>
-                            <h3 class="font-bold text-md mb-1">
-                                Do Not Disturb (DND)
-                            </h3>
-                            <p class="text-sm text-brandGrayText">Do not disturb the plastered surface after application to ensure proper setting and strength.</p>
-                        </div>
-                    </div>
+            </div>
+            <!-- Section: Product Features -->
+            <div class="mb-12">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-6 h-1 bg-[#b01620]"></div>
+                    <h2 class="text-2xl font-semibold">Product Features</h2>
                 </div>
-                <!-- Section: Key Features / Documents -->
-                <div class="mb-12">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-6 h-1 bg-[#b01620]"></div>
-                        <h2 class="text-2xl font-semibold">Download Documents</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 p-4 text-md rounded-lg text-brandGrayText bg-[#F3F3F3]">
+                    <div class="flex gap-3 p-2">
+                        <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
+                        <p>Factory-prepared ready-to-use plaster mortar.</p>
                     </div>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <a href="#" class="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
-                            <i class="fa-regular fa-file-pdf text-3xl text-brandRed"></i>
-                            <div>
-                                <h4 class="font-bold text-sm text-[#1F2937]">Technical Data Sheet</h4>
-                                <p class="text-xs text-brandGrayText">PDF • 1.2 MB</p>
-                            </div>
-                        </a>
-                        <a href="#" class="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
-                            <i class="fa-regular fa-file-pdf text-3xl text-brandRed"></i>
-                            <div>
-                                <h4 class="font-bold text-sm text-[#1F2937]">Product Brochure</h4>
-                                <p class="text-xs text-brandGrayText">PDF • 2.5 MB</p>
-                            </div>
-                        </a>
+                    <div class="flex gap-3 p-2">
+                        <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
+                        <p>
+                            Suitable for internal and external plastering applications.
+                        </p>
+                    </div>
+                    <div class="flex gap-3 p-2">
+                        <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
+                        <p>
+                            Provides strong adhesion and crack-free plastering.
+                        </p>
+                    </div>
+                    <div class="flex gap-3 p-2">
+                        <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
+                        <p>Ensures smooth and compact surface finish.</p>
+                    </div>
+                    <div class="flex gap-3 p-2">
+                        <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
+                        <p>Reduces rebound losses during application.</p>
+                    </div>
+                    <div class="flex gap-3 p-2">
+                        <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
+                        <p>
+                            Eliminates on-site sand and cement mixing errors.
+                        </p>
+                    </div>
+                    <div class="flex gap-3 p-2">
+                        <i class="fa-regular fa-circle-check text-[#b01620] mt-1"></i>
+                        <p>
+                            Improves construction speed and productivity.
+                        </p>
                     </div>
                 </div>
             </div>
-            <!-- Right Column: Forms -->
-            <div class="lg:col-span-4">
-                <div class="sticky top-[100px] space-y-6">
-                    <!-- Coverage Calculator Box -->
-                    <div class="bg-[#FEF4F4] rounded-lg p-6 border border-red-100 shadow-sm">
-                        <div class="flex items-center gap-2 mb-4 text-brandRed font-bold text-[#F90606]">
-                            <i class="fa-solid fa-calculator"></i>
-                            <h3>COVERAGE CALCULATOR</h3>
-                        </div>
-                        <form class="space-y-4">
-                            <div>
-                                <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Total Area (sq. meters)</label>
-                                <input type="number" placeholder="e.g. 100" class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Tile Size</label>
-                                <select class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed bg-white">
-                                    <option>Select your tile size</option>
-                                    <option>Small (up to 30x30cm)</option>
-                                    <option>600x600 mm</option>
-                                </select>
-                            </div>
-                            <div class="pt-2">
-                                <button type="button" class="w-full bg-white border border-gray-300 text-brandDark font-medium rounded px-4 py-2 text-sm flex justify-between items-center hover:bg-gray-50 transition">
-                                    <span class="text-brandGrayText">Estimated req. (40kg)</span>
-                                    <!-- <i class="fa-solid fa-location-dot text-brandRed"></i> -->
-                                </button>
-                            </div>
-                        </form>
+            <!-- Section: Technical Specifications -->
+            <div class="mb-12">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-6 h-1 bg-[#b01620]"></div>
+                    <h2 class="text-2xl font-semibold">Technical Specifications</h2>
+                </div>
+                <div class="table-container overflow-x-auto border border-gray-200 rounded-lg">
+                    <table class="w-full text-md text-left">
+                        <thead class="bg-[#1F2937] text-white">
+                            <tr>
+                                <th class="px-6 py-4 font-medium">Property</th>
+                                <th class="px-6 py-4 font-medium">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 bg-[#F9F9F9]">
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-brandDark">Product Type</td>
+                                <td class="px-6 py-4 text-brandGrayText">Ready Mix Plaster (RMP)</td>
+                            </tr>
+                            <tr class="bg-[#F3F3F3]">
+                                <td class="px-6 py-4 font-medium text-brandDark">Application</td>
+                                <td class="px-6 py-4 text-brandGrayText">Wall, Column, Ceiling Plastering</td>
+                            </tr>
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-brandDark">Suitable Areas</td>
+                                <td class="px-6 py-4 text-brandGrayText">Interior & Exterior Surfaces</td>
+                            </tr>
+                            <tr class="bg-[#F3F3F3]">
+                                <td class="px-6 py-4 font-medium text-brandDark">Water Mixing</td>
+                                <td class="px-6 py-4 text-brandGrayText">Approx. 8 Litres per 40 kg bag</td>
+                            </tr>
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-brandDark">Reaction Time</td>
+                                <td class="px-6 py-4 text-brandGrayText">3 Minutes</td>
+                            </tr>
+                            <tr class="bg-[#F3F3F3]">
+                                <td class="px-6 py-4 font-medium text-brandDark">Colour</td>
+                                <td class="px-6 py-4 text-brandGrayText">
+                                    Grey
+                                </td>
+                            </tr>
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-brandDark">
+                                    Packaging
+                                </td>
+                                <td class="px-6 py-4 text-brandGrayText">
+                                    40 kg Bag
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Section: Coverage -->
+            <div class="mb-12">
+                <div class="flex flex-col gap-3 mb-6">
+                    <div class="flex items-center gap-3 ">
+                        <div class="w-6 h-1 bg-[#b01620]"></div>
+                        <h2 class="text-2xl font-semibold">Coverage</h2>
                     </div>
-                    <!-- Request a Quote Box -->
-                    <div class="bg-white rounded-lg p-6 border-2 border-[#F90606] shadow-sm">
-                        <h3 class="font-bold text-xl mb-2">Request a Quote</h3>
-                        <p class="text-xs text-brandDark mb-5">
-                            High-volume industrial pricing available.
-                            Responses within 24 hours.
+                    <span class="text-brandGrayText text-sm ">(Approximate coverage of Bull Strong Ready Mix Plaster per 40 kg bag)</span>
+                </div>
+                <div class="table-container overflow-x-auto border border-gray-200 rounded-lg">
+                    <table class="w-full text-md text-left">
+                        <thead class="bg-[#1F2937] text-white">
+                            <tr class="text-sm">
+                                <th class="px-6 py-4 font-medium">Surface Type</th>
+                                <th class="px-6 py-4 font-medium">Coverage</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 text-sm bg-[#F9F9F9]">
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-brandDark">Light Weight Blocks (10–12 mm thickness)</td>
+                                <td class="px-6 py-4 text-brandGrayText">17 – 18 sq.ft</td>
+                            </tr>
+                            <tr class="bg-white">
+                                <td class="px-6 py-4 font-medium text-brandDark">Brick Wall (10–12 mm thickness)</td>
+                                <td class="px-6 py-4 text-brandGrayText">
+                                    14 – 15 sq.ft
+                                </td>
+                            </tr>
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-brandDark">RCC Surface (10 mm thickness)</td>
+                                <td class="px-6 py-4 text-brandGrayText">20 – 22 sq.ft</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Section: Performance Comparison -->
+            <div class="mb-12">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-6 h-1 bg-[#b01620]"></div>
+                    <h2 class="text-2xl font-semibold">Performance Comparison</h2>
+                </div>
+                <div class="table-container overflow-x-auto border border-gray-200 rounded-lg">
+                    <table class="w-full text-sm text-left">
+                        <thead class="bg-[#1F2937] text-white">
+                            <tr>
+                                <th class="px-6 py-4 font-medium">Parameter</th>
+                                <th class="px-6 py-4 font-medium">Conventional Site Mix</th>
+                                <th class="px-6 py-4 font-medium">Bull Strong Ready Mix Plaster</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-[#1F2937]">Rain Water Penetration</td>
+                                <td class="px-6 py-4 text-brandGrayText">
+                                    Porous due to coarse sand
+                                </td>
+                                <td class="px-6 py-4 text-green-600 font-medium">Dense surface with better protection</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-[#1F2937]">Surface Smoothness</td>
+                                <td class="px-6 py-4 text-brandGrayText">Uneven finish</td>
+                                <td class="px-6 py-4 text-green-600 font-medium">Smooth & uniform finish</td>
+                            </tr>
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-[#1F2937]">Crack Formation</td>
+                                <td class="px-6 py-4 text-brandGrayText">Higher chances due to site mixing</td>
+                                <td class="px-6 py-4 text-green-600 font-medium">Reduced crack formation</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-[#1F2937]">Cement-Sand Ratio</td>
+                                <td class="px-6 py-4 text-brandGrayText">Risk of mixing errors</td>
+                                <td class="px-6 py-4 text-green-600 font-medium">Factory controlled consistency</td>
+                            </tr>
+                            <tr class="bg-brandLightGray">
+                                <td class="px-6 py-4 font-medium text-[#1F2937]">Plaster Thickness</td>
+                                <td class="px-6 py-4 text-brandGrayText">Difficult to control</td>
+                                <td class="px-6 py-4 text-green-600 font-medium">Uniform application</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-[#1F2937]">Adhesion</td>
+                                <td class="px-6 py-4 text-brandGrayText">Reduced due to silt in sand</td>
+                                <td class="px-6 py-4 text-green-600 font-medium">Strong and reliable bonding</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Section: Usage Method -->
+            <div class="mb-12">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-6 h-1 bg-[#b01620]"></div>
+                    <h2 class="text-2xl font-semibold">Usage Method</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">1</div>
+                        <h3 class="font-bold text-md mb-1">
+                            Mortar Mixing
+                        </h3>
+                        <p class="text-sm text-brandGrayText">
+                            Mix Bull Strong Ready Mix Plaster with approximately 8 litres of clean water per 40 kg bag to obtain a smooth plaster mix.
                         </p>
-                            <form class="space-y-4">
+                    </div>
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">2</div>
+                        <h3 class="font-bold text-md mb-1">Reaction Time</h3>
+                        <p class="text-sm text-brandGrayText">Allow the mixture to stand for about 3 minutes before application.</p>
+                    </div>
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">3</div>
+                        <h3 class="font-bold text-md mb-1">
+                            Surface Preparation
+                        </h3>
+                        <p class="text-sm text-brandGrayText">Ensure the surface is clean, dust-free, and properly prepared before applying the plaster.</p>
+                    </div>
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">4</div>
+                        <h3 class="font-bold text-md mb-1">
+                            Plaster Application
+                        </h3>
+                        <p class="text-sm text-brandGrayText">Apply the plaster evenly across the surface and spread properly to achieve the required thickness.</p>
+                    </div>
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">5</div>
+                        <h3 class="font-bold text-md mb-1">Smooth Finishing</h3>
+                        <p class="text-sm text-brandGrayText">
+                            Remove air gaps and smooth the plaster surface for proper alignment and finish.
+                        </p>
+                    </div>
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">6</div>
+                        <h3 class="font-bold text-md mb-1">
+                            Do Not Disturb (DND)
+                        </h3>
+                        <p class="text-sm text-brandGrayText">Do not disturb the plastered surface after application to ensure proper setting and strength.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section: Key Features / Documents -->
+            <div class="mb-12">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-6 h-1 bg-[#b01620]"></div>
+                    <h2 class="text-2xl font-semibold">Download Documents</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <a href="#" class="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
+                        <i class="fa-regular fa-file-pdf text-3xl text-brandRed"></i>
+                        <div>
+                            <h4 class="font-bold text-sm text-[#1F2937]">Technical Data Sheet</h4>
+                            <p class="text-xs text-brandGrayText">PDF • 1.2 MB</p>
+                        </div>
+                    </a>
+                    <a href="#" class="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:shadow-md transition">
+                        <i class="fa-regular fa-file-pdf text-3xl text-brandRed"></i>
+                        <div>
+                            <h4 class="font-bold text-sm text-[#1F2937]">Product Brochure</h4>
+                            <p class="text-xs text-brandGrayText">PDF • 2.5 MB</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Right Column: Forms -->
+        <div class="lg:col-span-4">
+            <div class="sticky top-[100px] space-y-6">
+                <!-- Coverage Calculator Box -->
+                <div class="bg-[#FEF4F4] rounded-lg p-6 border border-red-100 shadow-sm">
+                    <div class="flex items-center gap-2 mb-4 text-brandRed font-bold text-[#F90606]">
+                        <i class="fa-solid fa-calculator"></i>
+                        <h3>COVERAGE CALCULATOR</h3>
+                    </div>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Total Area (sq. meters)</label>
+                            <input type="number" placeholder="e.g. 100" class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Tile Size</label>
+                            <select class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed bg-white">
+                                <option>Select your tile size</option>
+                                <option>Small (up to 30x30cm)</option>
+                                <option>600x600 mm</option>
+                            </select>
+                        </div>
+                        <div class="pt-2">
+                            <button type="button" class="w-full bg-white border border-gray-300 text-brandDark font-medium rounded px-4 py-2 text-sm flex justify-between items-center hover:bg-gray-50 transition">
+                                <span class="text-brandGrayText">Estimated req. (40kg)</span>
+                                <!-- <i class="fa-solid fa-location-dot text-brandRed"></i> -->
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Request a Quote Box -->
+                <div class="bg-white rounded-lg p-6 border-2 border-[#F90606] shadow-sm">
+                    <h3 class="font-bold text-xl mb-2">Request a Quote</h3>
+                    <p class="text-xs text-brandDark mb-5">
+                        High-volume industrial pricing available.
+                        Responses within 24 hours.
+                    </p>
+                    <form class="space-y-4">
                         <div>
                             <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Full Name</label>
                             <input type="text" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
@@ -458,12 +458,12 @@ ob_start();
                             Get Quote <i class="fa-solid fa-arrow-right text-sm"></i>
                         </button>
                     </form>
-                    </div>
                 </div>
             </div>
         </div>
-        <!-- Section: Related Products (NOW A RESPONSIVE SLIDER) -->
-        <div class="mt-6 mb-8">
+    </div>
+    <!-- Section: Related Products (NOW A RESPONSIVE SLIDER) -->
+    <div class="mt-6 mb-8">
         <div class="flex items-center gap-3 mb-8">
             <div class="w-6 h-1 bg-brandRed"></div>
             <h2 class="text-2xl font-semibold">Related Products</h2>
@@ -567,53 +567,53 @@ ob_start();
             <div class="swiper-pagination"></div>
         </div>
     </div>
-    </main>
-    <!-- Call to Action Banner -->
+</main>
+<!-- Call to Action Banner -->
 <section class="text-white py-16 relative overflow-hidden bg-cover bg-center"
     style="background-image: url('images/cts-bg.jpg');">
 
     <!-- Dark Overlay -->
     <div class="absolute inset-0 bg-black/70"></div>
-        <div class="max-w-4xl mx-auto px-4 relative z-10 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">
-                Need the Right Plastering Solution for Your Project?
-            </h2>
-            <p class="text-gray-300 mb-8 max-w-2xl mx-auto">
-                Our experts can help you choose the best plastering products and application methods for your construction needs.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <!-- <a href="#" class="bg-white text-brandDark font-medium px-8 py-3 rounded hover:bg-gray-100 transition">Contact Us</a> -->
-                <a href="#" class="bg-brandRed text-white font-medium px-8 py-3 rounded hover:bg-red-700 transition"> Talk to an Expert →</a>
-            </div>
+    <div class="max-w-4xl mx-auto px-4 relative z-10 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Need the Right Plastering Solution for Your Project?
+        </h2>
+        <p class="text-gray-300 mb-8 max-w-2xl mx-auto">
+            Our experts can help you choose the best plastering products and application methods for your construction needs.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <!-- <a href="#" class="bg-white text-brandDark font-medium px-8 py-3 rounded hover:bg-gray-100 transition">Contact Us</a> -->
+            <a href="#" class="bg-brandRed text-white font-medium px-8 py-3 rounded hover:bg-red-700 transition"> Talk to an Expert →</a>
         </div>
-    </section>
-    <!-- 3. ADD SWIPER JS & INITIALIZE -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var swiper = new Swiper(".relatedProductsSwiper", {
-                slidesPerView: 1, // 1 slide on mobile
-                spaceBetween: 24, // Gap between slides
-                loop: true, // Infinite loop
-                autoplay: {
-                    delay: 3000, // Wait 3 seconds between slides
-                    disableOnInteraction: false, // Keep playing after user swipes
+    </div>
+</section>
+<!-- 3. ADD SWIPER JS & INITIALIZE -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var swiper = new Swiper(".relatedProductsSwiper", {
+            slidesPerView: 1, // 1 slide on mobile
+            spaceBetween: 24, // Gap between slides
+            loop: true, // Infinite loop
+            autoplay: {
+                delay: 3000, // Wait 3 seconds between slides
+                disableOnInteraction: false, // Keep playing after user swipes
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2, // 2 slides on tablets
                 },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
+                1024: {
+                    slidesPerView: 4, // 4 slides on desktop
                 },
-                breakpoints: {
-                    640: {
-                        slidesPerView: 2, // 2 slides on tablets
-                    },
-                    1024: {
-                        slidesPerView: 4, // 4 slides on desktop
-                    },
-                },
-            });
+            },
         });
-    </script>
+    });
+</script>
 
 <?php
 $content = ob_get_contents();

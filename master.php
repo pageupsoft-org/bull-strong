@@ -51,29 +51,7 @@
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="about.php" class="text-gray-700 hover:text-brand-red font-semibold transition">About</a>
 
-                    <!-- <div class="relative group py-6">
-                        <button
-                            class="text-gray-700 group-hover:text-brand-red font-semibold transition flex items-center gap-1">
-                            Products <i class="fa-solid fa-chevron-down text-xs"></i>
-                        </button>
-                        <div
-                            class="absolute top-full left-0 w-48 bg-white shadow-xl rounded-b-lg border-t-2 border-brand-red opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top translate-y-2 group-hover:translate-y-0">
-                            <a href="#"
-                                class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">Wall
-                                Putty</a>
-                            <a href="#"
-                                class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">Emulsions</a>
-                           
-                            <a href="aac-block-adhesive.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">aac-block-adhesive</a>
-                            <a href="adhesive.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">adhesive</a>
-                            <a href="epoxy-grout.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">epoxy-grout</a>
-                            <a href="ready-mix-plaster.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">ready-mix-plaster</a>
-                            <a href="sbr-latex.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">sbr-latex</a>
-                            <a href="tile-cleaner.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">tile-cleaner</a>
-                            <a href="tile-grout.php" class="block px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-red">tile-grout</a>
 
-                        </div>
-                    </div> -->
                     <div class="relative group py-6">
                         <button class="text-gray-700 group-hover:text-brand-red font-semibold transition flex items-center gap-1">
                             Products <i class="fa-solid fa-chevron-down text-xs"></i>
@@ -122,7 +100,7 @@
                     </div>
 
                     <!-- <a href="#blog" class="text-gray-700 hover:text-brand-red font-semibold transition">Blog</a> -->
-                    <a href="#" class="text-gray-700 hover:text-brand-red font-semibold transition">Become
+                    <a href="become-distributor.php" class="text-gray-700 hover:text-brand-red font-semibold transition">Become
                         Distributor</a>
                     <a href="contact-us.php"
                         class="bg-brand-red hover:bg-brand-darkred text-white px-6 py-2.5 rounded-lg font-bold transition transform hover:scale-105 shadow-lg shadow-red-500/30">Contact
@@ -223,11 +201,11 @@
             </div>
         </div>
     </footer>
-<!-- Back To Top Button -->
-<button id="backToTop"
-  class="fixed bottom-6 right-6 hidden bg-black text-white p-2 w-10 h-10 z-30 rounded-full shadow-lg hover:bg-gray-800 transition duration-300">
-  ↑
-</button>
+    <!-- Back To Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-6 right-6 hidden bg-black text-white p-2 w-10 h-10 z-30 rounded-full shadow-lg hover:bg-gray-800 transition duration-300">
+        ↑
+    </button>
 
     <!-- Work -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -453,30 +431,28 @@
         });
     </script>
 
-<script>
+    <script>
+        const backToTop = document.getElementById("backToTop");
 
-const backToTop = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
 
-window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTop.classList.remove("hidden");
+            } else {
+                backToTop.classList.add("hidden");
+            }
 
-  if (window.scrollY > 300) {
-    backToTop.classList.remove("hidden");
-  } else {
-    backToTop.classList.add("hidden");
-  }
+        });
 
-});
+        backToTop.addEventListener("click", () => {
 
-backToTop.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
 
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-
-});
-
-</script>
+        });
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 

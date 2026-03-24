@@ -45,7 +45,7 @@ ob_start();
         <div class="lg:col-span-8">
             <!-- Product Image -->
             <div class="bg-gray-100 rounded-lg overflow-hidden mb-8 h-64 md:h-96 flex items-center justify-center">
-                <img src="images/ready-mix.png" alt="Bull Strong  AAC Block Adhesive" class="object-cover w-full h-full">
+                <img src="images/product-detail/aac.jpg" alt="Bull Strong  AAC Block Adhesive" class="object-cover w-full h-full border border-gray-100">
             </div>
             <!-- Product Title & Quick Specs -->
             <h1 class="text-3xl md:text-4xl font-bold mb-2">

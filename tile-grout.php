@@ -46,7 +46,7 @@ ob_start();
         <div class="lg:col-span-8">
             <!-- Product Image -->
             <div class="bg-gray-100 rounded-lg overflow-hidden mb-8 h-64 md:h-96 flex items-center justify-center">
-                <img src="images/ready-mix.png" alt="Bull Strong Tile Grout" class="object-cover w-full h-full">
+                <img src="images/product-detail/tile-grout.jpg" alt="Bull Strong Tile Grout" class="object-cover w-full h-full border border-gray-100">
             </div>
             <!-- Product Title & Quick Specs -->
             <h1 class="text-3xl md:text-4xl font-bold mb-2">
@@ -405,7 +405,7 @@ ob_start();
                         High-volume industrial pricing available.
                         Responses within 24 hours.
                     </p>
-                     <form class="space-y-4">
+                    <form class="space-y-4">
                         <div>
                             <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Full Name</label>
                             <input type="text" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
