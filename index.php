@@ -28,14 +28,13 @@ ob_start();
 </header>
 <!-- hero section banner  -->
 <section class="relative overflow-hidden">
-
     <!-- Desktop Slider -->
     <div id="desktopSlider" class="hidden md:block relative">
-        <div class="slides flex transition-transform duration-700 ease-in-out">
-            <img src="images/banners/01.png" class="w-full flex-shrink-0">
-            <img src="images/banners/02.png" class="w-full flex-shrink-0">
-            <img src="images/banners/03.png" class="w-full flex-shrink-0">
-            <img src="images/banners/04.png" class="w-full flex-shrink-0">
+        <div class="slides flex flex-nowrap transition-transform duration-700 ease-in-out w-full">
+            <img src="images/banners/01.png" class="w-full min-w-full flex-shrink-0 object-cover">
+            <img src="images/banners/02.png" class="w-full min-w-full flex-shrink-0 object-cover">
+            <img src="images/banners/03.png" class="w-full min-w-full flex-shrink-0 object-cover">
+            <img src="images/banners/04.png" class="w-full min-w-full flex-shrink-0 object-cover">
         </div>
 
         <button id="desktopPrev"
@@ -48,15 +47,13 @@ ob_start();
             ❯
         </button>
     </div>
-
-
     <!-- Mobile Slider -->
     <div id="mobileSlider" class="block md:hidden relative">
-        <div class="slides flex transition-transform duration-700 ease-in-out">
-            <img src="images/banners/mobile-banner-1.png" class="w-full flex-shrink-0">
-            <img src="images/banners/mobile-banner-2.png" class="w-full flex-shrink-0">
-            <img src="images/banners/mobile-banner-3.png" class="w-full flex-shrink-0">
-            <img src="images/banners/mobile-banner-4.png" class="w-full flex-shrink-0">
+        <div class="slides flex flex-nowrap transition-transform duration-700 ease-in-out w-full">
+            <img src="images/banners/mobile-banner-1.png" class="w-full min-w-full flex-shrink-0 object-cover">
+            <img src="images/banners/mobile-banner-2.png" class="w-full min-w-full flex-shrink-0 object-cover">
+            <img src="images/banners/mobile-banner-3.png" class="w-full min-w-full flex-shrink-0 object-cover">
+            <img src="images/banners/mobile-banner-4.png" class="w-full min-w-full flex-shrink-0 object-cover">
         </div>
 
         <button id="mobilePrev"
@@ -69,11 +66,10 @@ ob_start();
             ❯
         </button>
     </div>
-
 </section>
 
 
-<section id="stats" class="relative z-20 -mt-20 md:-mt-24 px-4 max-w-6xl mx-auto reveal fade-up">
+<section id="stats" class="relative z-20 mt-5 lg:-mt-24 px-4 max-w-6xl mx-auto reveal">
     <div
         class="bg-white/30 backdrop-blur-xl rounded-2xl shadow-[0_10px_40px_rgba(0,0,0,0.15)] p-8 flex flex-col md:flex-row justify-between items-center text-center divide-y md:divide-y-0 md:divide-x divide-gray-300/50 border border-white/60">
 
@@ -82,7 +78,7 @@ ob_start();
                 <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="w-12 mx-auto"
                     alt="Dealers">
             </div>
-            <div class="text-4xl md:text-5xl font-semibold text-gray-900 mb-1 counter" data-target="122">0</div>
+            <div class="text-3xl xl:text-5xl lg:text-4xl font-semibold text-gray-900 mb-1 counter" data-target="122">0</div>
             <div class="text-sm text-gray-800 font-semibold">Happy Dealers</div>
         </div>
 
@@ -91,7 +87,7 @@ ob_start();
                 <img src="https://cdn-icons-png.flaticon.com/512/6009/6009864.png" class="w-12 mx-auto"
                     alt="Clients">
             </div>
-            <div class="text-4xl md:text-5xl font-semibold text-gray-900 mb-1 counter" data-target="4226">0</div>
+            <div class="text-3xl xl:text-5xl lg:text-4xl font-semibold text-gray-900 mb-1 counter" data-target="4226">0</div>
             <div class="text-sm text-gray-800 font-semibold">Happy Client's</div>
         </div>
 
@@ -100,7 +96,7 @@ ob_start();
                 <img src="https://cdn-icons-png.flaticon.com/512/3112/3112946.png" class="w-12 mx-auto"
                     alt="Awards">
             </div>
-            <div class="text-4xl md:text-5xl font-semibold text-gray-900 mb-1 counter" data-target="14">0</div>
+            <div class="text-3xl xl:text-5xl lg:text-4xl font-semibold text-gray-900 mb-1 counter" data-target="14">0</div>
             <div class="text-sm text-gray-800 font-semibold">Awards Win</div>
         </div>
 
@@ -109,78 +105,78 @@ ob_start();
                 <img src="https://cdn-icons-png.flaticon.com/512/1182/1182691.png" class="w-12 mx-auto"
                     alt="Rating">
             </div>
-            <div class="text-4xl md:text-5xl font-semibold text-gray-900 mb-1 counter" data-target="3500">0</div>
+            <div class="text-3xl xl:text-5xl lg:text-4xl font-semibold text-gray-900 mb-1 counter" data-target="3500">0</div>
             <div class="text-sm text-gray-800 font-semibold">Positive Rating</div>
         </div>
 
     </div>
 </section>
+
 <!-- about -->
-<section id="about" class="py-16 md:pt-24 pb-40 mt-20 overflow-hidden bg-[#fbfbfb]">
-    <div class="container mx-auto px-6 md:px-12 xl:px-24">
+<section id="about" class="py-16 md:pt-24 md:pb-40 pb-0 xl:mt-20 overflow-hidden bg-[#fbfbfb]">
+    <div class="container mx-auto px-6 lg:px-12 xl:px-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-            <div class="flex flex-col items-start gap-6">
+            <div class="flex flex-col md:items-start items-center gap-6">
                 <span
                     class="inline-block px-5 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-[#6E6E6E] to-[#3C3C3C] text-white tracking-wide uppercase">
                     About Us
                 </span>
-                <h2 class="text-4xl md:text-5xl font-normal text-[#171717] leading-tight">
+                <h2 class="text-3xl md:text-5xl font-normal text-[#171717] leading-tight md:text-left text-center">
                     A Legacy Of Quality
-                    <span class="block text-5xl md:text-6xl font-bold text-orange-[#171717] mt-1">Since 1978</span>
+                    <span class="block text-3xl md:text-6xl font-bold text-orange-[#171717] mt-1">Since 1978</span>
                 </h2>
-                <p class="text-lg text-[#222222] leading-relaxed max-w-xl">
+                <p class="md:text-lg text-md text-[#222222] leading-relaxed max-w-xl">
                     With over four decades of experience, we have established ourselves as industry leaders
                     committed to excellence. Our journey began with a simple mission: to deliver unparalleled
                     quality and service to our clients.
                 </p>
-                <p class="text-lg text-[#222222] leading-relaxed max-w-xl">
+                <p class="md:text-lg text-md text-[#222222] leading-relaxed max-w-xl">
                     Today, we continue to uphold these values, combining traditional craftsmanship with modern
                     innovation to exceed expectations in everything we do.
                 </p>
-                <a href="#"
+                <a href="about.php"
                     class="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-l from-[#6E6E6E] to-[#3C3C3C] text-white font-semibold rounded-md shadow-md hover:bg-gray-800 transition duration-300">
                     READ MORE →
                 </a>
             </div>
 
-            <div class="overlapping-container flex-col md:flex-row gap-8 md:gap-0 mt-12 md:mt-0">
+            <div class="overlapping-container flex-col md:flex-row xl:gap-8 lg:gap-6 md:gap-0 sm:mt-12 mt-0 md:mt-0">
 
                 <div class="text-overlay flex flex-col items-center md:items-start">
-                    <span class="text-7xl md:text-8xl font-bold text-brand-red leading-none">
+                    <span class="text-4xl md:text-6xl xl:text-8xl font-bold text-brand-red leading-none">
                         48+
                     </span>
-                    <p class="text-xl md:text-lg font-medium text-[#222222] mt-2 tracking-tight">
+                    <p class="text-xl md:text-md xl:text-xl font-medium text-[#222222] mt-2 tracking-tight">
                         YEAR OF ESTABLISHMENT
                     </p>
                 </div>
-                <div class="relative w-full h-[500px] md:h-[600px] md:pl-20">
+                <div class="relative w-full sm:h-[400px] h-[300px] md:h-[600px] md:pl-20 md:flex">
 
-                    <div class="absolute top-0 right-0 w-[65%] h-[85%] rounded-3xl overflow-hidden shadow-lg">
-                        <img src="images/about-1.png" alt="Marble Quarry" class="w-full h-full object-cover">
+                    <div class="absolute top-0 right-0 md:w-[65%] sm:w-[49%] lg:h-[85%] rounded-3xl overflow-hidden shadow-lg">
+                        <img src="images/about-1.png" alt="Marble Quarry" class="w-full h-full object-cover sm:block hidden">
                     </div>
 
-                    <div class="absolute bottom-[-15%] left-[0%] w-[60%] h-[45%] rounded-2xl overflow-hidden z-20">
+                    <div class="absolute md:bottom-[-15%] left-[0%] lg:w-[80%] xl:w-[60%] md:w-[100%] sm:w-[49%] rounded-2xl overflow-hidden z-20">
                         <img src="images/about-banner-home.png" alt="Construction Logo Sign"
                             class="w-full h-full object-cover">
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
-<!-- products -->
-<section id="products" class="py-24 bg-material">
-    <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 relative">
 
+<!-- products -->
+<section id="products" class="bg-material">
+    <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 relative">
         <!-- Main Section Header -->
-        <div class="text-center mb-16 reveal fade-up">
+        <div class="text-center py-16 reveal fade-up">
             <span class="bg-[#ED3136] text-white px-5 py-2 rounded-full text-xs font-bold tracking-widest uppercase inline-block mb-4">
                 Our Materials
             </span>
-            <h2 class="text-4xl md:text-5xl font-semibold text-white mb-4">Engineered For Performance</h2>
-            <p class="text-white text-lg font-light max-w-2xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-semibold text-white mb-4">Engineered For Performance</h2>
+            <p class="text-white md:text-lg text-md font-light max-w-2xl mx-auto">
                 Discover our specialized range of high-performance construction chemicals and materials designed for longevity.
             </p>
         </div>
@@ -188,17 +184,17 @@ ob_start();
         <!-- SLIDER 1: TILE CARE PRODUCTS -->
 
         <div class="flex justify-between items-center mb-6 reveal fade-up delay-100">
-            <h3 class="text-2xl md:text-3xl font-medium text-white">Tile Care Product</h3>
-            <a href="product-list.php" class="border border-white text-white px-6 py-2 rounded-lg font-semibold transition flex items-center gap-2">
+            <h3 class="text-xl md:text-3xl font-medium text-white">Tile Care Product</h3>
+            <a href="product-list.php" class="border border-white text-white px-6 md:py-2 py-1 rounded-lg font-semibold transition flex items-center gap-2">
                 View All <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
 
         <div class="relative reveal fade-up delay-200">
-            <button id="prev-prod" class="absolute -left-5 md:-left-6 top-[40%] -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
+            <button id="prev-prod" class="absolute -left-2 md:-left-6 top-[40%] -translate-y-1/2 z-20 md:w-12 w-10 h-10 md:h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
                 <i class="fa-solid fa-arrow-left"></i>
             </button>
-            <button id="next-prod" class="absolute -right-5 md:-right-6 top-[40%] -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
+            <button id="next-prod" class="absolute -right-2 md:-right-6 top-[40%] -translate-y-1/2 z-20 md:w-12 w-10 h-10 md:h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
 
@@ -206,12 +202,12 @@ ob_start();
                 <!-- Product Card 1 -->
                 <div class="w-full md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] flex-shrink-0 snap-center bg-white shadow-[0_4px_20px_rgba(0,0,0,0.06)] border border-gray-100 flex flex-col group">
                     <div class="h-64 bg-white flex items-center justify-center border-b border-gray-50 relative overflow-hidden">
-                        <img src="images/product-image/tile-adhesive-tc.png" alt="" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500 w-full h-full">
+                        <img src="images/product-image/tile-adhesive-tc.png" alt="Tile Adhesive" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500 w-full h-full">
                     </div>
                     <div class="p-5 flex-1 flex flex-col">
                         <h4 class="text-xl font-bold text-gray-900 mb-2">Tile Adhesive</h4>
                         <p class="text-gray-500 text-sm mb-6 flex-1">Specially formulated adhesive that ensures a stronger, longer-lasting bond for tiles—works on floors, walls, and wet areas without the mess of traditional cement.</p>
-                        <a href="#" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
+                        <a href="adhesive.php" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
                             VIEW PRODUCT <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -225,7 +221,7 @@ ob_start();
                     <div class="p-5 flex-1 flex flex-col">
                         <h4 class="text-xl font-bold text-gray-900 mb-2">Tile Cleaner</h4>
                         <p class="text-gray-500 text-sm mb-6 flex-1"> Effective tile cleaning solution that removes cement stains, dirt, and grime—restores shine and freshness to tiled surfaces effortlessly.</p>
-                        <a href="#" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
+                        <a href="tile-cleaner.php" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
                             VIEW PRODUCT <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -239,7 +235,7 @@ ob_start();
                     <div class="p-5 flex-1 flex flex-col">
                         <h4 class="text-xl font-bold text-gray-900 mb-2">Tile Grout</h4>
                         <p class="text-gray-500 text-sm mb-6 flex-1">A flexible and crack-resistant filler for tile joints—prevents water seepage, resists fungal growth, and maintains a clean tiled appearance.</p>
-                        <a href="#" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
+                        <a href="tile-grout.php" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
                             VIEW PRODUCT <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -253,7 +249,7 @@ ob_start();
                     <div class="p-5 flex-1 flex flex-col">
                         <h4 class="text-xl font-bold text-gray-900 mb-2">Epoxy Grout</h4>
                         <p class="text-gray-500 text-sm mb-6 flex-1">A premium joint filler for tiles that's resistant to stains, water, and chemicals—perfect for bathrooms, kitchens, and industrial spaces.</p>
-                        <a href="#" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
+                        <a href="epoxy-grout.php" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
                             VIEW PRODUCT <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -262,12 +258,12 @@ ob_start();
                 <!-- Product Card 5 -->
                 <div class="w-full md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] flex-shrink-0 snap-center bg-white shadow-[0_4px_20px_rgba(0,0,0,0.06)] border border-gray-100 flex flex-col group">
                     <div class="h-64 bg-white flex items-center justify-center border-b border-gray-50 relative overflow-hidden">
-                        <img src="images/product-image/sbr-latex-tc.png" alt="Tile Grout" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500 w-full h-full">
+                        <img src="images/product-image/sbr-latex-tc.png" alt="SBR Latex" class="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500 w-full h-full">
                     </div>
                     <div class="p-5 flex-1 flex flex-col">
                         <h4 class="text-xl font-bold text-gray-900 mb-2">SBR Latex</h4>
                         <p class="text-gray-500 text-sm mb-6 flex-1"> A multipurpose bonding agent that strengthens cement mixes—ideal for waterproofing, crack repairs, and bonding old to new concrete surfaces.</p>
-                        <a href="#" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
+                        <a href="sbr-latex.php" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
                             VIEW PRODUCT <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -278,23 +274,23 @@ ob_start();
         <!-- SLIDER 2: WALL CARE PRODUCTS -->
 
         <div class="flex justify-between items-center mt-20 mb-6 reveal fade-up delay-100">
-            <h3 class="text-2xl md:text-3xl font-medium text-white">Wall Care Product</h3>
-            <a href="product-list.php#wallcardlist" class="border border-white text-white px-6 py-2 rounded-lg font-semibold transition flex items-center gap-2">
+            <h3 class="text-xl md:text-3xl font-medium text-white">Wall Care Product</h3>
+            <a href="product-list.php#wallcardlist" class="border border-white text-white px-6 md:py-2 py-1 rounded-lg font-semibold transition flex items-center gap-2">
                 View All <i class="fa-solid fa-arrow-right"></i>
             </a>
         </div>
 
         <div class="relative reveal fade-up delay-200">
             <!-- Updated IDs: prev-prod-2, next-prod-2 -->
-            <button id="prev-prod-2" class="absolute -left-5 md:-left-6 top-[40%] -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
+            <button id="prev-prod-2" class="absolute -left-2 md:-left-6 top-[40%] -translate-y-1/2 z-20 md:w-12 w-10 h-10 md:h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
                 <i class="fa-solid fa-arrow-left"></i>
             </button>
-            <button id="next-prod-2" class="absolute -right-5 md:-right-6 top-[40%] -translate-y-1/2 z-20 w-12 h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
+            <button id="next-prod-2" class="absolute -right-2 md:-right-6 top-[40%] -translate-y-1/2 z-20 md:w-12 w-10 h-10 md:h-12 rounded-full bg-[#ED3136] text-white shadow-xl flex items-center justify-center hover:bg-brand-darkred transition">
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
 
             <!-- Updated ID: product-track-2 -->
-            <div id="product-track-2" class="flex gap-6 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-8 px-2 pt-2">
+            <div id="product-track-2" class="flex gap-6 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-12 px-2 pt-2">
                 <!-- Product Card 1 -->
                 <div class="w-full md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] flex-shrink-0 snap-center bg-white shadow-[0_4px_20px_rgba(0,0,0,0.06)] border border-gray-100 flex flex-col group">
                     <div class="h-64 bg-white flex items-center justify-center border-b border-gray-50 relative overflow-hidden">
@@ -303,7 +299,7 @@ ob_start();
                     <div class="p-5 flex-1 flex flex-col">
                         <h4 class="text-xl font-bold text-gray-900 mb-2">AAC (Block/Construction material)</h4>
                         <p class="text-gray-500 text-sm mb-6 flex-1">A ready-mix mortar that provides excellent bonding strength for AAC blocks—minimizes wastage, reduces time, and improves wall stability.</p>
-                        <a href="#" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
+                        <a href="aac-block-adhesive.php" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
                             VIEW PRODUCT <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -384,7 +380,7 @@ ob_start();
                     <div class="p-5 flex-1 flex flex-col">
                         <h4 class="text-xl font-bold text-gray-900 mb-2">Ready Mix</h4>
                         <p class="text-gray-500 text-sm mb-6 flex-1"> Pre-blended plaster for internal and external walls—saves labor, reduces material errors, and delivers a uniform and smooth finish.</p>
-                        <a href="#" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
+                        <a href="ready-mix-plaster.php" class="bg-brand-buttondark text-white px-5 py-3 text-sm font-bold flex items-center justify-between w-max gap-3 hover:bg-brand-red transition rounded-lg">
                             VIEW PRODUCT <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
@@ -395,14 +391,14 @@ ob_start();
     </div>
 </section>
 
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+<section class="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
         <div class="w-full h-full flex justify-center">
             <img src="images/why-builder.png" alt="" class="w-full h-auto object-cover rounded-md shadow-sm">
         </div>
 
-        <div>
+        <div class="md:text-left text-center">
             <div class="mb-4">
                 <span
                     class="inline-block px-5 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-[#6E6E6E] to-[#3C3C3C] text-white tracking-wide uppercase mb-5">
@@ -417,7 +413,7 @@ ob_start();
                 Pellentesque Sit Amet Sapien.
             </p>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:w-full w-[70%] mx-auto">
 
                 <div
                     class="flex items-center p-4 bg-[#fbebec] border border-red-200 rounded-lg hover:bg-red-50 transition-colors duration-200 cursor-default">
@@ -515,7 +511,7 @@ ob_start();
 
         <section class="w-full py-16">
 
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 mb-8 text-center md:text-start">
                 <span
                     class="bg-[#ED3136] text-white px-5 py-2 rounded-full text-xs font-bold tracking-widest uppercase inline-block mb-4">
                     Photos
@@ -590,7 +586,7 @@ ob_start();
         </p>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full h-0 overflow-hidden">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 w-full h-0 overflow-hidden">
         <div id="video-start-guide"></div>
     </div>
 
@@ -737,7 +733,7 @@ ob_start();
 <!-- Testimonials -->
 <div class="bg-[#fdf5f5] flex items-center justify-center font-sans">
 
-    <section class="w-full pb-16 pt-20 max-w-7xl mx-auto" id="testimonial-section">
+    <section class="w-full pb-16 pt-20 container mx-auto" id="testimonial-section">
 
         <h2 class="text-4xl font-bold text-center theme-red mb-5">Testimonials</h2>
 
@@ -789,7 +785,7 @@ ob_start();
                             class="bg-white border border-gray-400 rounded-lg p-8 relative shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-full flex flex-col justify-between">
                             <i class="fas fa-quote-right absolute top-4 right-4 theme-red text-3xl"></i>
                             <p class="text-gray-800 text-sm text-center mt-6 mb-6 leading-relaxed font-medium">
-                              “The tile adhesive from Bull Strong has excellent grip. We didn’t need to reapply or wait too long for the setting. Time-saving and solid bond.”
+                                “The tile adhesive from Bull Strong has excellent grip. We didn’t need to reapply or wait too long for the setting. Time-saving and solid bond.”
                             </p>
                             <div class="text-center mt-auto">
                                 <h4 class="font-bold text-black text-lg">Amit Sharma</h4>
@@ -803,7 +799,7 @@ ob_start();
                             class="bg-white border border-gray-400 rounded-lg p-8 relative shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-full flex flex-col justify-between">
                             <i class="fas fa-quote-right absolute top-4 right-4 theme-red text-3xl"></i>
                             <p class="text-gray-800 text-sm text-center mt-6 mb-6 leading-relaxed font-medium">
-                               “My customers keep coming back for Bull Strong products. Quality is consistent, packaging is professional, and margins are decent. <br> Win-win for us.”
+                                “My customers keep coming back for Bull Strong products. Quality is consistent, packaging is professional, and margins are decent. <br> Win-win for us.”
                             </p>
                             <div class="text-center mt-auto">
                                 <h4 class="font-bold text-black text-lg">Ankit Jain</h4>
@@ -817,7 +813,7 @@ ob_start();
                             class="bg-white border border-gray-400 rounded-lg p-8 relative shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-full flex flex-col justify-between">
                             <i class="fas fa-quote-right absolute top-4 right-4 theme-red text-3xl"></i>
                             <p class="text-gray-800 text-sm text-center mt-6 mb-6 leading-relaxed font-medium">
-                               “Bull Strong’s SBR Latex worked wonders on our waterproofing site. It reduced cracks and leakage issues after the first coat itself.”
+                                “Bull Strong’s SBR Latex worked wonders on our waterproofing site. It reduced cracks and leakage issues after the first coat itself.”
                             </p>
                             <div class="text-center mt-auto">
                                 <h4 class="font-bold text-black text-lg">Vinod Yadav</h4>
@@ -825,12 +821,12 @@ ob_start();
                             </div>
                         </div>
                     </div>
-                     <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                    <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
                         <div
                             class="bg-white border border-gray-400 rounded-lg p-8 relative shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-full flex flex-col justify-between">
                             <i class="fas fa-quote-right absolute top-4 right-4 theme-red text-3xl"></i>
                             <p class="text-gray-800 text-sm text-center mt-6 mb-6 leading-relaxed font-medium">
-                              “We recommend Bull Strong’s texture finish to all our clients. It’s easy to work with, and the final look is always elegant and sharp.”
+                                “We recommend Bull Strong’s texture finish to all our clients. It’s easy to work with, and the final look is always elegant and sharp.”
                             </p>
                             <div class="text-center mt-auto">
                                 <h4 class="font-bold text-black text-lg">Sneha Rao</h4>
@@ -838,12 +834,12 @@ ob_start();
                             </div>
                         </div>
                     </div>
-                     <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
+                    <div class="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-3">
                         <div
                             class="bg-white border border-gray-400 rounded-lg p-8 relative shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 h-full flex flex-col justify-between">
                             <i class="fas fa-quote-right absolute top-4 right-4 theme-red text-3xl"></i>
                             <p class="text-gray-800 text-sm text-center mt-6 mb-6 leading-relaxed font-medium">
-                            “The tile cleaner really works on tough grout and soap stains. We used it in a client’s bathroom and kitchen – spotless results.”
+                                “The tile cleaner really works on tough grout and soap stains. We used it in a client’s bathroom and kitchen – spotless results.”
                             </p>
                             <div class="text-center mt-auto">
                                 <h4 class="font-bold text-black text-lg">Akash Verma</h4>
@@ -933,63 +929,99 @@ ob_start();
 </script>
 <script>
     function createInfiniteSlider(sliderId, prevBtn, nextBtn) {
+        const sliderContainer = document.getElementById(sliderId);
+        if (!sliderContainer) return;
 
-        const slider = document.querySelector(`#${sliderId} .slides`);
-        const slides = slider.querySelectorAll("img");
+        const slider = sliderContainer.querySelector(".slides");
+        const prevElement = document.getElementById(prevBtn);
+        const nextElement = document.getElementById(nextBtn);
+
+        if (!slider || !prevElement || !nextElement) return;
+
+        const slides = Array.from(slider.querySelectorAll("img"));
+        if (slides.length === 0) return;
 
         let index = 1;
         const firstClone = slides[0].cloneNode(true);
         const lastClone = slides[slides.length - 1].cloneNode(true);
 
-        firstClone.id = "first-clone";
-        lastClone.id = "last-clone";
+        firstClone.classList.add("first-clone");
+        lastClone.classList.add("last-clone");
 
         slider.appendChild(firstClone);
         slider.prepend(lastClone);
 
         const allSlides = slider.querySelectorAll("img");
+        let isTransitioning = false;
 
-        slider.style.transform = `translateX(-${index * 100}%)`;
-
-        function moveSlide() {
-            slider.style.transition = "transform 0.7s ease";
+        function updateSlider() {
+            slider.style.transition = "transform 0.7s ease-in-out";
             slider.style.transform = `translateX(-${index * 100}%)`;
         }
 
-        document.getElementById(nextBtn).addEventListener("click", () => {
-            if (index >= allSlides.length - 1) return;
-            index++;
-            moveSlide();
-        });
-
-        document.getElementById(prevBtn).addEventListener("click", () => {
-            if (index <= 0) return;
-            index--;
-            moveSlide();
-        });
-
-        slider.addEventListener("transitionend", () => {
-
-            if (allSlides[index].id === "first-clone") {
+        function handleTransitionEnd() {
+            isTransitioning = false;
+            if (allSlides[index].classList.contains("first-clone")) {
                 slider.style.transition = "none";
                 index = 1;
                 slider.style.transform = `translateX(-${index * 100}%)`;
-            }
-
-            if (allSlides[index].id === "last-clone") {
+            } else if (allSlides[index].classList.contains("last-clone")) {
                 slider.style.transition = "none";
                 index = allSlides.length - 2;
                 slider.style.transform = `translateX(-${index * 100}%)`;
             }
+        }
 
+        slider.addEventListener("transitionend", () => {
+            isTransitioning = false;
+            if (allSlides[index].classList.contains("first-clone")) {
+                slider.style.transition = "none";
+                index = 1;
+                slider.style.transform = `translateX(-${index * 100}%)`;
+            } else if (allSlides[index].classList.contains("last-clone")) {
+                slider.style.transition = "none";
+                index = allSlides.length - 2;
+                slider.style.transform = `translateX(-${index * 100}%)`;
+            }
         });
 
-        // Auto slide
-        setInterval(() => {
-            index++;
-            moveSlide();
-        }, 5000);
+        const startAutoSlide = () => {
+            return setInterval(() => {
+                if (isTransitioning) return;
+                isTransitioning = true;
+                index++;
+                updateSlider();
+            }, 5000);
+        };
 
+        let autoSlide = startAutoSlide();
+
+        sliderContainer.addEventListener("mouseenter", () => clearInterval(autoSlide));
+        sliderContainer.addEventListener("mouseleave", () => {
+            clearInterval(autoSlide);
+            autoSlide = startAutoSlide();
+        });
+
+        nextElement.addEventListener("click", () => {
+            if (isTransitioning) return;
+            isTransitioning = true;
+            index++;
+            updateSlider();
+            clearInterval(autoSlide);
+            autoSlide = startAutoSlide();
+        });
+
+        prevElement.addEventListener("click", () => {
+            if (isTransitioning) return;
+            isTransitioning = true;
+            index--;
+            updateSlider();
+            clearInterval(autoSlide);
+            autoSlide = startAutoSlide();
+        });
+
+        // Initialize position
+        slider.style.transform = `translateX(-${index * 100}%)`;
     }
 
     createInfiniteSlider("desktopSlider", "desktopPrev", "desktopNext");

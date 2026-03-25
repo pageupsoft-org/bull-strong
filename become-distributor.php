@@ -5,14 +5,14 @@ ob_start();
 <div class="relative w-full overflow-hidden shadow-lg group bg-black">
     <div id="slider" class="flex transition-transform duration-700 ease-[cubic-bezier(0.4,0,0.2,1)]">
 
-        <div class="min-w-full relative md:h-[650px]">
-            <img src="images/distributors/mob-banner-1.jpg" alt="Banner 1 Mobile" class="w-full h-full object-cover md:hidden">
-            <img src="images/distributors/home-banner-1.jpg" alt="Banner 1 Desktop" class="w-full h-full object-cover hidden md:block">
+        <div class="min-w-full relative xl:h-[600px] lg:h-[450px] md:h-[350px] h-auto">
+            <img src="images/distributors/mob-banner-1.jpg" alt="Banner 1 Mobile" class="w-full h-full md:hidden">
+            <img src="images/distributors/home-banner-1.jpg" alt="Banner 1 Desktop" class="w-full h-full hidden md:block">
         </div>
 
-        <div class="min-w-full relative md:h-[650px]">
-            <img src="images/distributors/mob-banner-2.jpg" alt="Banner 2 Mobile" class="w-full h-full object-cover md:hidden">
-            <img src="images/distributors/home-banner-2.jpg" alt="Banner 2 Desktop" class="w-full h-full object-cover hidden md:block">
+        <div class="min-w-full relative xl:h-[600px] lg:h-[450px] md:h-[350px] h-auto">
+            <img src="images/distributors/mob-banner-2.jpg" alt="Banner 2 Mobile" class="w-full h-full md:hidden">
+            <img src="images/distributors/home-banner-2.jpg" alt="Banner 2 Desktop" class="w-full h-full hidden md:block">
         </div>
 
     </div>
@@ -39,8 +39,8 @@ ob_start();
     </div>
 </div>
 
-<section class="py-20 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4">
+<section class="lg:py-20 md:py-10 py-8 bg-gray-50">
+    <div class="container mx-auto px-4">
 
         <div class="text-center mb-16">
             <span
@@ -115,7 +115,7 @@ ob_start();
     </div>
 </section>
 
-<section class="py-16 bg-white" id="product">
+<section class="lg:py-16 md:py-10 py-8 bg-white" id="product">
     <div class="max-w-6xl mx-auto px-4 text-center">
         <span
             class="inline-block mb-5 px-5 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-[#6E6E6E] to-[#3C3C3C] text-white tracking-wide uppercase">
@@ -127,7 +127,7 @@ ob_start();
         </h2>
     </div>
 
-    <div class="overflow-hidden rounded-2xl shadow-xl border border-gray-200 bg-white max-w-7xl mx-auto">
+    <div class="overflow-hidden rounded-2xl shadow-xl border border-gray-200 bg-white container mx-auto">
         <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
                 <thead>
@@ -176,10 +176,10 @@ ob_start();
     </div>
 </section>
 
-<section class="py-20 bg-gray-50" id="contactus">
+<section class="lg:py-20 md:py-10 py-8 bg-gray-50" id="contactus">
     <div class="max-w-6xl mx-auto px-4">
-        <div class="flex flex-col md:flex-row items-center gap-12">
-            <div class="w-full md:w-1/2">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+            <div class="w-full lg:w-1/2 lg:order-1 order-2">
                 <div class="relative">
                     <div class="absolute -top-4 -left-4 w-24 h-24 bg-red-100 rounded-full -z-10"></div>
                     <img src="images/distributors/contact-us.png" alt="contact" class="rounded-2xl shadow-2xl w-full object-cover">
@@ -187,10 +187,10 @@ ob_start();
                 </div>
             </div>
 
-            <div class="w-full md:w-1/2">
+            <div class="w-full lg:w-1/2 lg:order-2 order-1">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-900 mb-10">
                     Get a <span class="text-red-600 italic">FREE</span> Product
-                    <span class="text-2xl font-medium text-gray-600">Sample or Expert Consultation</span>
+                    <span class="md:text-2xl text-3xl font-medium text-gray-600">Sample or Expert Consultation</span>
                 </h2>
                 <form action="send-mail.php" method="post" class="space-y-5 bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -231,7 +231,7 @@ ob_start();
                                 <input type="radio" name="user_type" value="Architect" class="accent-red-600 w-4 h-4">
                                 <span class="text-gray-700 font-medium group-hover:text-red-600 transition-colors">Architect</span>
                             </label>
-                             <label class="flex items-center space-x-2 cursor-pointer group">
+                            <label class="flex items-center space-x-2 cursor-pointer group">
                                 <input type="radio" name="user_type" value="Homeowner" class="accent-red-600 w-4 h-4">
                                 <span class="text-gray-700 font-medium group-hover:text-red-600 transition-colors">Homeowner</span>
                             </label>
@@ -257,9 +257,9 @@ ob_start();
 </section>
 
 
-<section class="py-20 bg-white">
+<section class="lg:py-20 md:py-10 py-8 bg-white">
     <div class="max-w-3xl mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-12">Frequently Asked <span class="text-red-600">Questions</span></h2>
+        <h2 class="text-3xl font-semibold text-center mb-12">Frequently Asked <span class="text-red-600">Questions</span></h2>
 
         <div class="space-y-4">
             <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm">

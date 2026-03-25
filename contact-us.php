@@ -7,13 +7,13 @@ ob_start();
     <!-- Header Section -->
     <header class="bg-white py-12 px-4 sm:px-6 lg:px-8 text-center">
         <div class="max-w-4xl mx-auto">
-            <h1 class="text-4xl md:text-5xl text-bulldark tracking-tight mb-2">
+            <h1 class="text-3xl md:text-5xl text-bulldark tracking-tight mb-2">
                 Contact <span class="text-[#c81e1e]">Bull Strong</span>
             </h1>
             <p class="text-xl md:text-2xl font-bold text-gray-600 mb-6 italic">
                 "Tiles & Wall se Pakki Dosti!"
             </p>
-            <p class="text-gray-600 max-w-2xl mx-auto text-lg">
+            <p class="text-gray-600 max-w-2xl mx-auto lg:text-lg text-md">
                 Have questions about our products, dealership opportunities, or project requirements?
                 Our team is ready to assist you with the right solutions for your construction needs.
             </p>
@@ -21,11 +21,11 @@ ob_start();
     </header>
 
     <!-- Main Content Area -->
-    <main class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <main class="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
             <!-- Left Column: Contact Information -->
-            <div class="space-y-8">
+            <div class="space-y-8 lg:order-1 order-2">
 
                 <!-- Company Info Card -->
                 <div class="bg-white p-8 rounded-xl shadow-md border-l-4 border-[#c81e1e]">
@@ -97,7 +97,7 @@ ob_start();
             </div>
 
             <!-- Right Column: Contact Form -->
-            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-[#c81e1e]">
+            <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-[#c81e1e] lg:order-2 order-1">
                 <h2 class="text-2xl font-bold text-bulldark mb-2">Have a Question or Requirement?</h2>
                 <p class="text-sm text-gray-500 mb-6">Fill out the form and our team will get back to you shortly.</p>
 

@@ -20,7 +20,7 @@ ob_start();
 
 <!-- Navbar -->
 <nav class="border-b border-gray-200 sticky top-0 bg-white z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
         <div class="flex-shrink-0 flex items-center gap-2">
             <i class="fa-solid fa-hippo text-3xl text-brandRed"></i>
             <span class="font-bold text-xl uppercase tracking-wider">Bull<br>Strong</span>
@@ -46,7 +46,7 @@ ob_start();
 </nav>
 
 <!-- Main Content -->
-<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+<main class="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
     <!-- Top Section: Image & Sidebar Forms -->
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
@@ -419,7 +419,7 @@ ob_start();
 
 <!-- Footer -->
 <footer class="bg-[#151d2a] text-gray-300 py-12 border-t border-gray-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
             <div class="flex items-center gap-2 mb-4">
                 <i class="fa-solid fa-hippo text-3xl text-brandRed"></i>
@@ -457,7 +457,7 @@ ob_start();
             </div>
         </div>
     </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-gray-800 text-center text-xs text-gray-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-gray-800 text-center text-xs text-gray-500 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p>&copy; 2026 Design & Developed by Bull Strong Services Pvt. Ltd. • All rights reserved.</p>
         <div class="w-8 h-8 rounded-full bg-brandRed text-white flex items-center justify-center cursor-pointer hover:bg-red-700" onclick="window.scrollTo(0,0)">
             <i class="fa-solid fa-arrow-up"></i>

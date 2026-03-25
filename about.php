@@ -13,13 +13,13 @@ ob_start();
             From Minerals
         </h2>
         <h1
-            class="text-yellow-400 text-5xl md:text-7xl font-extrabold uppercase tracking-wide leading-tight drop-shadow-lg">
+            class="text-yellow-400 text-[36px] md:text-7xl font-extrabold uppercase tracking-wide leading-tight drop-shadow-lg">
             To Modern<br />Construction
         </h1>
     </div>
 </section>
 
-<section class="py-20 px-4 bg-gray-50 flex flex-col items-center">
+<section class="md:py-20 py-8 px-4 bg-gray-50 flex flex-col items-center">
 
     <span
         class="inline-block mb-5 px-5 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-[#6E6E6E] to-[#3C3C3C] text-white tracking-wide uppercase">
@@ -59,7 +59,7 @@ ob_start();
                     class="max-h-full max-w-full object-contain mix-blend-multiply">
             </div>
 
-            <div
+            <!-- <div
                 class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 h-32 w-[calc(50%-12px)] md:w-[calc(33.333%-16px)] lg:w-[calc(20%-19.2px)] flex items-center justify-center transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer shrink-0">
                 <img src="images/logo-miraj.png" alt="" class="max-h-full max-w-full object-contain mix-blend-multiply">
             </div>
@@ -79,12 +79,12 @@ ob_start();
             <div
                 class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 h-32 w-[calc(50%-12px)] md:w-[calc(33.333%-16px)] lg:w-[calc(20%-19.2px)] flex items-center justify-center transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer shrink-0">
                 <img src="images/logo-ghadi.jpg" alt="" class="max-h-full max-w-full object-contain mix-blend-multiply">
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
 
-<section class="py-16 px-6 sm:px-12 lg:px-24 overflow-hidden font-sans">
+<section class="md:py-16 py-8 px-6 sm:px-12 lg:px-24 overflow-hidden font-sans">
     <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
 
         <div class="relative group mt-8 lg:mt-0">
@@ -102,8 +102,7 @@ ob_start();
             </div>
         </div>
 
-        <div class="relative pt-16 lg:pt-0 animate-fade-in flex flex-col justify-center">
-
+        <div class="relative md:pt-12 pt-6 lg:pt-0 animate-fade-in flex flex-col justify-center md:text-left text-center">
             <div
                 class="text-[6rem] md:text-[8rem] font-light text-outline-thin select-none pointer-events-none tracking-tight leading-none fade-out-bottom bebas-neue-regular">
                 1978
@@ -140,16 +139,16 @@ ob_start();
 
 <!-- Growth & Milestones -->
 
-<div class="bg-[#F8F9FA] font-sans text-gray-900 overflow-hidden min-h-screen py-24">
+<div class="bg-[#F8F9FA] font-sans text-gray-900 overflow-hidden min-h-screen xl:py-24 md:py-16 py-6">
 
     <div class="max-w-[1400px] mx-auto px-6 lg:px-12">
 
-        <div class="mb-16 max-w-2xl relative z-10">
+        <div class="md:mb-16 mb-10 max-w-2xl relative z-10 md:text-left text-center">
             <span
                 class="inline-block mb-5 px-5 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-[#6E6E6E] to-[#3C3C3C] text-white tracking-wide uppercase">
                 Company History
             </span>
-            <h2 class="text-5xl md:text-6xl font-light tracking-tight text-[#333333]">
+            <h2 class="text-3xl md:text-6xl font-light tracking-tight text-[#333333]">
                 Growth & <span class="text-[#C8102E] font-medium">Milestones.</span>
             </h2>
         </div>
@@ -182,7 +181,7 @@ ob_start();
 </div>
 
 <section class="bg-gradient-to-b from-[#1a1a1a] to-[#111111] text-white py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div class="order-2 lg:order-1">
                 <img src="images/about-why-it-was-founded.png" alt="Industrial Plant"
@@ -236,8 +235,8 @@ ob_start();
     </div>
 </section>
 
-<section class="bg-white py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="bg-white md:py-20 py-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
             <div class="pr-0 lg:pr-10">
@@ -282,7 +281,7 @@ ob_start();
     </div>
 </section>
 
-<section class="bg-gray-50 py-20 border-t border-gray-100">
+<section class="bg-gray-50 md:py-20 py-8 border-t border-gray-100">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div class="text-center mb-16">
@@ -323,7 +322,7 @@ ob_start();
             </div>
 
             <div
-                class="bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col items-center justify-center p-8 h-full min-h-[300px]">
+                class="bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col items-center justify-center p-8 h-full md:min-h-[300px] min-h-[200px]">
                 <div class="text-center">
                     <!-- <div class="flex justify-center mb-2">
                         <i class="fa-solid fa-hippo text-[#b31b34] text-4xl"></i>
@@ -367,8 +366,8 @@ ob_start();
     </div>
 </section>
 <!-- gallery -->
-<section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4">
+<section class="md:py-20 py-8 bg-white">
+    <div class="container mx-auto px-4">
 
         <!-- Heading -->
         <div class="text-center mb-14">
@@ -417,7 +416,7 @@ ob_start();
     </div>
 </section>
 
-<section class="text-white py-16 relative overflow-hidden bg-cover bg-center"
+<section class="text-white md:py-16 py-10 relative overflow-hidden bg-cover bg-center"
     style="background-image: url('images/cts-bg.jpg');">
 
     <!-- Dark Overlay -->
@@ -513,7 +512,7 @@ ob_start();
         <img src="${milestone.image}" class="milestone-img w-full h-full object-cover"/>
         </div>
 
-        <div class="p-6 md:p-8">
+        <div class="p-5 lg:p-8">
 
         <h3 class="text-xl md:text-2xl font-bold mb-3">${milestone.title}</h3>
 

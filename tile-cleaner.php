@@ -40,10 +40,10 @@ ob_start();
 
 
 <!-- Main Content -->
-<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+<main class="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
     <!-- Top Section: Image & Sidebar Forms -->
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-10 gap-0">
 
         <!-- Left Column: Product Info -->
         <div class="lg:col-span-8">
@@ -152,32 +152,32 @@ ob_start();
                     <h2 class="text-2xl font-semibold">Usage Method</h2>
                 </div>
                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg md:p-6 p-3 text-center flex flex-col items-center justify-center">
                         <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">1</div>
                         <h3 class="font-bold text-md mb-1">Surface Preparation</h3>
                         <p class="text-sm text-brandGrayText">Remove loose dust, debris, and surface dirt from the tile area.</p>
                     </div>
-                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg md:p-6 p-3 text-center flex flex-col items-center justify-center">
                         <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">2</div>
                         <h3 class="font-bold text-md mb-1">Dilution</h3>
                         <p class="text-sm text-brandGrayText">Dilute Bull Strong Tile Cleaner with water as required depending on stain intensity.</p>
                     </div>
-                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg md:p-6 p-3 text-center flex flex-col items-center justify-center">
                         <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">3</div>
                         <h3 class="font-bold text-md mb-1">Apply the Cleaner</h3>
                         <p class="text-sm text-brandGrayText">Apply the solution evenly on the tile surface using a brush, sponge, or mop.</p>
                     </div>
-                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg md:p-6 p-3 text-center flex flex-col items-center justify-center">
                         <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">4</div>
                         <h3 class="font-bold text-md mb-1">Scrubbing</h3>
                         <p class="text-sm text-brandGrayText">Gently scrub the surface to remove stubborn dirt and stains.</p>
                     </div>
-                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg md:p-6 p-3 text-center flex flex-col items-center justify-center">
                         <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">5</div>
                         <h3 class="font-bold text-md mb-1">Rinse with Water</h3>
                         <p class="text-sm text-brandGrayText">Wash the surface thoroughly with clean water to remove residue.</p>
                     </div>
-                    <div class="bg-brandLightGray border border-gray-200 rounded-lg p-6 text-center flex flex-col items-center justify-center">
+                    <div class="bg-brandLightGray border border-gray-200 rounded-lg md:p-6 p-3 text-center flex flex-col items-center justify-center">
                         <div class="w-10 h-10 rounded-full bg-brandRed text-white flex items-center justify-center font-bold mb-3 shadow-md">6</div>
                         <h3 class="font-bold text-md mb-1">Final Cleaning</h3>
                         <p class="text-sm text-brandGrayText">Allow the surface to dry for a clean and refreshed tile finish.</p>
@@ -335,8 +335,8 @@ ob_start();
                     <div class="border border-gray-100 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/aac-wc.png" alt="Tile Adhesive" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Tile Adhesive</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">High dispersion semi-liquid paste for interior walls.</p>
-                        <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Specially formulated adhesive that ensures a stronger, longer-lasting bond for tiles—works on floors, walls, and wet areas without the mess of traditional cement.</p>
+                        <a href="adhesive.php" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
 
@@ -345,8 +345,8 @@ ob_start();
                     <div class="border border-gray-100 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/tile-cleaner-tc.png" alt="Tile Cleaner" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Tile Cleaner</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Advanced stain removal formulation for external walls.</p>
-                        <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Effective tile cleaning solution that removes cement stains, dirt, and grime—restores shine and freshness to tiled surfaces effortlessly.</p>
+                        <a href="tile-cleaner.php" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
 
@@ -355,8 +355,8 @@ ob_start();
                     <div class="border border-gray-200 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/tile-grout-tc.png" alt="Tile Grout" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Tile Grout</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">High adhesion joint formulation for internal walls.</p>
-                        <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">A flexible and crack-resistant filler for tile joints—prevents water seepage, resists fungal growth, and maintains a clean tiled appearance.</p>
+                        <a href="tile-grout.php" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
 
@@ -365,8 +365,8 @@ ob_start();
                     <div class="border border-gray-200 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/epoxy-grout-tc.png" alt="Epoxy Grout" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Epoxy Grout</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">High adhesion semi-liquid paste for interior walls.</p>
-                        <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">A premium joint filler for tiles that's resistant to stains, water, and chemicals—perfect for bathrooms, kitchens, and industrial spaces.</p>
+                        <a href="epoxy-grout.php" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
 
@@ -375,8 +375,8 @@ ob_start();
                     <div class="border border-gray-200 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/sbr-latex-tc.png" alt="SBR Latex" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">SBR Latex</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Heavy-duty water resistance for wet areas.</p>
-                        <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">A multipurpose bonding agent that strengthens cement mixes—ideal for waterproofing, crack repairs, and bonding old to new concrete surfaces.</p>
+                        <a href="sbr-latex.php" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
 
@@ -385,8 +385,8 @@ ob_start();
                     <div class="border border-gray-200 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/ready-mix-wc.png" alt="Ready Mix" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Ready Mix</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Smooth finish white cement-based putty.</p>
-                        <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Pre-blended plaster for internal and external walls—saves labor, reduces material errors, and delivers a uniform and smooth finish.</p>
+                        <a href="ready-mix-plaster.php" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
 
@@ -395,7 +395,7 @@ ob_start();
                     <div class="border border-gray-200 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/plast-putty-wc.png" alt="Plast Putty" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Plast Putty</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Smooth finish white cement-based putty.</p>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">A white cement-based putty that fills cracks and levels surfaces—giving walls a silky-smooth finish and enhancing the final paint effect.</p>
                         <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
@@ -405,7 +405,7 @@ ob_start();
                     <div class="border border-gray-200 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/acrylic-distemper-wc.png" alt="Acrylic Distemper" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Acrylic Distemper</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Smooth finish white cement-based putty.</p>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">An affordable water-based wall paint that delivers a clean, matte look—suitable for interior walls and perfect for budget-friendly makeovers.</p>
                         <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>
@@ -414,7 +414,7 @@ ob_start();
                     <div class="border border-gray-200 rounded-lg flex flex-col shadow-lg transition bg-white h-full">
                         <img src="images/product-image/acrylic-texture-wc.png" alt="Acrylic Texture" class="w-full mb-4">
                         <h3 class="font-bold text-lg mb-1 px-3">Acrylic Texture</h3>
-                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Smooth finish white cement-based putty.</p>
+                        <p class="text-xs text-brandGrayText mb-4 flex-grow px-3">Decorative finish that adds patterns and depth to walls—resistant to cracks and stains, ideal for creating visually appealing surfaces.</p>
                         <a href="#" class="bg-[#262626] text-white text-xs mx-3 mb-3 font-medium py-2 px-4 rounded self-start hover:bg-gray-800 transition">VIEW PRODUCT <i class="fa-solid fa-caret-right ml-1"></i></a>
                     </div>
                 </div>

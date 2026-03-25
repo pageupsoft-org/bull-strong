@@ -1,337 +1,338 @@
-      .bebas-neue-regular {
-          font-family: "Bebas Neue", sans-serif;
-          font-weight: 400;
-          font-style: normal;
-      }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-      /* Custom CSS for hiding scrollbars but keeping functionality */
-      .no-scrollbar::-webkit-scrollbar {
-          display: none;
-      }
+/* Custom CSS for hiding scrollbars but keeping functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
-      .no-scrollbar {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-      }
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
-      /* Scroll Animation Classes */
-      .reveal {
-          opacity: 0;
-          visibility: hidden;
-          transition: all 0.8s ease-out;
-      }
+/* Scroll Animation Classes */
+.reveal {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease-out;
+}
 
-      .reveal.active {
-          opacity: 1;
-          visibility: visible;
-      }
+.reveal.active {
+  opacity: 1;
+  visibility: visible;
+}
 
-      .fade-up {
-          transform: translateY(50px);
-      }
+.fade-up {
+  transform: translateY(50px);
+}
 
-      .fade-up.active {
-          transform: translateY(0);
-      }
+.fade-up.active {
+  transform: translateY(0);
+}
 
-      .slide-left {
-          transform: translateX(-50px);
-      }
+.slide-left {
+  transform: translateX(-50px);
+}
 
-      .slide-left.active {
-          transform: translateX(0);
-      }
+.slide-left.active {
+  transform: translateX(0);
+}
 
-      .slide-right {
-          transform: translateX(50px);
-      }
+.slide-right {
+  transform: translateX(50px);
+}
 
-      .slide-right.active {
-          transform: translateX(0);
-      }
+.slide-right.active {
+  transform: translateX(0);
+}
 
-      .zoom-in {
-          transform: scale(0.9);
-      }
+.zoom-in {
+  transform: scale(0.9);
+}
 
-      .zoom-in.active {
-          transform: scale(1);
-      }
+.zoom-in.active {
+  transform: scale(1);
+}
 
-      /* Delay utilities for staggered grids */
-      .delay-100 {
-          transition-delay: 100ms;
-      }
+/* Delay utilities for staggered grids */
+.delay-100 {
+  transition-delay: 100ms;
+}
 
-      .delay-200 {
-          transition-delay: 200ms;
-      }
+.delay-200 {
+  transition-delay: 200ms;
+}
 
-      .delay-300 {
-          transition-delay: 300ms;
-      }
+.delay-300 {
+  transition-delay: 300ms;
+}
 
-      /* about us */
-      /* Minimal Custom CSS for specific overlapping element placement */
-      .overlapping-container {
-          display: flex;
-          align-items: center;
-          position: relative;
-      }
+/* about us */
+/* Minimal Custom CSS for specific overlapping element placement */
+.overlapping-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 
-      .text-overlay {
-          position: absolute;
-          left: 0px;
-          z-index: 10;
-          top: 40%;
-      }
+.text-overlay {
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+  top: 40%;
+}
 
-      @media (max-width: 768px) {
-          .text-overlay {
-              position: static;
-              left: auto;
-              margin-bottom: 2rem;
-              text-align: center;
-          }
-      }
+@media (max-width: 768px) {
+  .text-overlay {
+    position: static;
+    left: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
 
-      .bg-material {
-          background-image: url('../images/material-bg.png');
-          background-position: center;
-          background-size: contain;
-          background-repeat: repeat;
-          width: 100%;
-          height: 100%;
-      }
+.bg-material {
+  background-image: url("../images/material-bg.png");
+  /* background-position: center; */
+  /* background-size: contain;
+    background-repeat: repeat; */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
 
-      /*Work*/
-      /* THE TRICK: Hide cloned slides only during the initial load state */
-      .initial-state .swiper-slide-duplicate {
-          opacity: 0 !important;
-          visibility: hidden !important;
-          transition: opacity 0.3s ease;
-      }
+/*Work*/
+/* THE TRICK: Hide cloned slides only during the initial load state */
+.initial-state .swiper-slide-duplicate {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transition: opacity 0.3s ease;
+}
 
-      /* Custom pagination dots */
-      .custom-pagination .swiper-pagination-bullet {
-          width: 8px;
-          height: 8px;
-          background-color: #9ca3af;
-          margin: 0 4px !important;
-          transition: all 0.3s ease;
-      }
+/* Custom pagination dots */
+.custom-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #9ca3af;
+  margin: 0 4px !important;
+  transition: all 0.3s ease;
+}
 
-      .custom-pagination .swiper-pagination-bullet-active {
-          background-color: #374151;
-          width: 24px;
-          border-radius: 6px;
-      }
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: #374151;
+  width: 24px;
+  border-radius: 6px;
+}
 
-      /* THE TRICK: This hides the "cloned" slides that Swiper automatically places 
+/* THE TRICK: This hides the "cloned" slides that Swiper automatically places 
       on the left side, keeping the left area completely blank on the first load. 
     */
-      .initial-state-video .swiper-slide-duplicate {
-          opacity: 0 !important;
-          visibility: hidden !important;
-          transition: opacity 0.3s ease;
-      }
+.initial-state-video .swiper-slide-duplicate {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transition: opacity 0.3s ease;
+}
 
-      /*Testimonial*/
-      /* Custom red color matching the image */
-      .theme-red {
-          color: #ef3e42;
-      }
+/*Testimonial*/
+/* Custom red color matching the image */
+.theme-red {
+  color: #ef3e42;
+}
 
-      .bg-theme-red {
-          background-color: #ef3e42;
-      }
+.bg-theme-red {
+  background-color: #ef3e42;
+}
 
-      .hover-bg-theme-red:hover {
-          background-color: #d12e31;
-      }
+.hover-bg-theme-red:hover {
+  background-color: #d12e31;
+}
 
-      /* Ensure the track handles flex properly */
-      .slider-track {
-          display: flex;
-          will-change: transform;
-          /* Optimizes animation performance */
-      }
+/* Ensure the track handles flex properly */
+.slider-track {
+  display: flex;
+  will-change: transform;
+  /* Optimizes animation performance */
+}
 
-      @keyframes fadeIn {
-          from {
-              opacity: 0;
-              transform: translateY(20px);
-          }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
 
-          to {
-              opacity: 1;
-              transform: translateY(0);
-          }
-      }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-      .animate-fade-in {
-          animation: fadeIn 1s ease-out forwards;
-      }
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
 
-      /* Custom utility for the hollow text effect */
-      .text-outline-thin {
-          -webkit-text-stroke: 1px #e5e7eb;
-          color: transparent;
-      }
+/* Custom utility for the hollow text effect */
+.text-outline-thin {
+  -webkit-text-stroke: 1px #e5e7eb;
+  color: transparent;
+}
 
-      /* New utility to fade the text out towards the bottom */
-      .fade-out-bottom {
-          -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
-          mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
-      }
+/* New utility to fade the text out towards the bottom */
+.fade-out-bottom {
+  -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
 
-      /* About slider */
-      /* Hide Scrollbar */
-      .hide-scrollbar::-webkit-scrollbar {
-          display: none;
-      }
+/* About slider */
+/* Hide Scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
-      .hide-scrollbar {
-          -ms-overflow-style: none;
-          scrollbar-width: none;
-      }
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
-      /* Base Transitions */
-      .milestone-card {
-          transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      }
+/* Base Transitions */
+.milestone-card {
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
 
-      .milestone-img {
-          transition: transform 1.5s ease-out;
-      }
+.milestone-img {
+  transition: transform 1.5s ease-out;
+}
 
-      .milestone-dot {
-          transition: all 0.4s ease;
-      }
+.milestone-dot {
+  transition: all 0.4s ease;
+}
 
-      .milestone-line {
-          transition: transform 0.5s ease-in-out;
-          transform-origin: left;
-      }
+.milestone-line {
+  transition: transform 0.5s ease-in-out;
+  transform-origin: left;
+}
 
-      .milestone-label {
-          transition: all 0.3s ease;
-      }
+.milestone-label {
+  transition: all 0.3s ease;
+}
 
-      .learn-more-wrapper {
-          transition: all 0.4s ease;
-          max-height: 0;
-          opacity: 0;
-          overflow: hidden;
-      }
+.learn-more-wrapper {
+  transition: all 0.4s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
 
-      .card-title {
-          transition: color 0.3s ease;
-      }
+.card-title {
+  transition: color 0.3s ease;
+}
 
-      /* Active State (Center) */
-      .is-active .milestone-card {
-          transform: scale(1.02) translateY(0);
-          opacity: 1;
-          border-color: #f3f4f6;
-          box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-      }
+/* Active State (Center) */
+.is-active .milestone-card {
+  transform: scale(1.02) translateY(0);
+  opacity: 1;
+  border-color: #f3f4f6;
+  box-shadow:
+    0 10px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
 
-      .is-active .milestone-img {
-          transform: scale(1.05);
-      }
+.is-active .milestone-img {
+  transform: scale(1.05);
+}
 
-      .is-active .learn-more-wrapper {
-          max-height: 60px;
-          opacity: 1;
-          margin-top: 1.5rem;
-      }
+.is-active .learn-more-wrapper {
+  max-height: 60px;
+  opacity: 1;
+  margin-top: 1.5rem;
+}
 
-      .is-active .milestone-dot {
-          background-color: #C8102E;
-          transform: scale(1.2);
-          box-shadow: 0 0 0 6px rgba(200, 16, 46, 0.1);
-      }
+.is-active .milestone-dot {
+  background-color: #c8102e;
+  transform: scale(1.2);
+  box-shadow: 0 0 0 6px rgba(200, 16, 46, 0.1);
+}
 
-      .is-active .milestone-line {
-          transform: scaleX(0);
-      }
+.is-active .milestone-line {
+  transform: scaleX(0);
+}
 
-      .is-active .milestone-label {
-          border-color: #C8102E;
-          color: #C8102E;
-          background-color: #FFF0F2;
-      }
+.is-active .milestone-label {
+  border-color: #c8102e;
+  color: #c8102e;
+  background-color: #fff0f2;
+}
 
-      .is-active .card-title {
-          color: #111827;
-      }
+.is-active .card-title {
+  color: #111827;
+}
 
-      /* Past State (Left of Center) */
-      .is-past .milestone-card {
-          transform: scale(0.95) translateY(16px);
-          opacity: 1;
-      }
+/* Past State (Left of Center) */
+.is-past .milestone-card {
+  transform: scale(0.95) translateY(16px);
+  opacity: 1;
+}
 
-      .is-past .milestone-img {
-          transform: scale(1);
-      }
+.is-past .milestone-img {
+  transform: scale(1);
+}
 
-      .is-past .milestone-dot {
-          background-color: #C8102E;
-          transform: scale(1);
-          box-shadow: none;
-      }
+.is-past .milestone-dot {
+  background-color: #c8102e;
+  transform: scale(1);
+  box-shadow: none;
+}
 
-      .is-past .milestone-line {
-          transform: scaleX(1);
-      }
+.is-past .milestone-line {
+  transform: scaleX(1);
+}
 
-      .is-past .milestone-label {
-          border-color: #C8102E;
-          color: #C8102E;
-          background-color: transparent;
-      }
+.is-past .milestone-label {
+  border-color: #c8102e;
+  color: #c8102e;
+  background-color: transparent;
+}
 
-      .is-past .card-title {
-          color: #4B5563;
-      }
+.is-past .card-title {
+  color: #4b5563;
+}
 
-      /* Future State (Right of Center) */
-      .is-future .milestone-card {
-          transform: scale(0.95) translateY(16px);
-          opacity: 1;
-      }
+/* Future State (Right of Center) */
+.is-future .milestone-card {
+  transform: scale(0.95) translateY(16px);
+  opacity: 1;
+}
 
-      .is-future .milestone-img {
-          transform: scale(1);
-      }
+.is-future .milestone-img {
+  transform: scale(1);
+}
 
-      .is-future .milestone-dot {
-          background-color: #1F2937;
-          transform: scale(1);
-          box-shadow: none;
-      }
+.is-future .milestone-dot {
+  background-color: #1f2937;
+  transform: scale(1);
+  box-shadow: none;
+}
 
-      .is-future .milestone-line {
-          transform: scaleX(0);
-      }
+.is-future .milestone-line {
+  transform: scaleX(0);
+}
 
-      .is-future .milestone-label {
-          border-color: #D1D5DB;
-          color: #4B5563;
-          background-color: transparent;
-      }
+.is-future .milestone-label {
+  border-color: #d1d5db;
+  color: #4b5563;
+  background-color: transparent;
+}
 
-      .is-future .card-title {
-          color: #4B5563;
-      }
-      .bg-brandRed-btn {
-        background: linear-gradient(103.81deg, #ED3136 -6.17%, #B32125 104.41%);
-      }
-      .border-bullred,
-      .bullred {
-        background-color: #E51A22;
-      }
-
-      
+.is-future .card-title {
+  color: #4b5563;
+}
+.bg-brandRed-btn {
+  background: linear-gradient(103.81deg, #ed3136 -6.17%, #b32125 104.41%);
+}
+.border-bullred,
+.bullred {
+  background-color: #e51a22;
+}

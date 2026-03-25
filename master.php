@@ -7,6 +7,7 @@
     <title>Bull Strong | Construction Materials</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <script>
         tailwind.config = {
             theme: {
@@ -42,7 +44,7 @@
 
 <body class="font-sans text-gray-800 bg-white overflow-x-hidden">
     <nav id="navbar" class="sticky top-0 w-full z-50 transition-all duration-300 bg-white shadow-md py-2">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <a class="flex-shrink-0 flex items-center cursor-pointer" href="index.php">
                     <img src="images/logo-bull-strong.png" alt="logo">
@@ -114,23 +116,67 @@
                 </div>
             </div>
         </div>
+        <!-- Overlay -->
+        <div id="menuOverlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-40"></div>
 
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t absolute w-full shadow-xl">
-            <div class="px-4 pt-2 pb-6 space-y-1">
-                <a href="#"
-                    class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Home</a>
-                <a href="#about"
-                    class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">About</a>
-                <a href="#products"
-                    class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Products</a>
-                <!-- <a href="#blog"
-                    class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Blog</a> -->
-                <a href="#"
-                    class="block px-3 py-3 text-base font-semibold text-gray-700 hover:bg-gray-50 hover:text-brand-red rounded-md">Become
-                    Distributor</a>
-                <a href="#contact"
-                    class="block px-3 py-3 text-center text-white bg-brand-red hover:bg-brand-darkred rounded-md font-bold mt-4">Contact
-                    Us</a>
+        <!-- Sidebar -->
+        <div id="mobile-menu"
+            class="fixed top-0 left-0 h-full w-[280px] bg-white shadow-xl transform -translate-x-full transition-transform duration-300 z-50 md:hidden flex flex-col">
+
+            <!-- Header -->
+            <div class="p-4 border-b flex justify-between items-center flex-none">
+                <img src="images/logo-bull-strong.png" class="h-10">
+                <button id="closeMenu" class="text-2xl">&times;</button>
+            </div>
+
+            <!-- Menu -->
+            <div class="px-4 py-4 space-y-2 overflow-y-auto flex-1">
+
+                <a href="index.php" class="block py-3 font-semibold text-gray-700">Home</a>
+                <a href="about.php" class="block py-3 font-semibold text-gray-700">About</a>
+
+                <!-- Products Dropdown -->
+                <div>
+                    <button id="productToggle"
+                        class="w-full flex justify-between items-center py-3 font-semibold text-gray-700">
+                        Products
+                        <i id="arrowIcon" class="fa-solid fa-chevron-down text-sm transition-transform"></i>
+                    </button>
+
+                    <div id="productDropdown" class="hidden pl-3 space-y-3 pb-3 transition-all duration-300">
+
+                        <div>
+                            <h3 class="text-brand-red text-sm font-semibold">Tile Care Products</h3>
+                            <a href="adhesive.php" class="block text-sm py-1">Tile Adhesive</a>
+                            <a href="tile-grout.php" class="block text-sm py-1">Tile Grout</a>
+                            <a href="epoxy-grout.php" class="block text-sm py-1">Epoxy Grout</a>
+                            <a href="tile-cleaner.php" class="block text-sm py-1">Tile Cleaner</a>
+                            <a href="sbr-latex.php" class="block text-sm py-1">SBR Latex</a>
+                        </div>
+
+                        <div>
+                            <h3 class="text-brand-red text-sm font-semibold">Wall Care Products</h3>
+                            <a href="aac-block-adhesive.php" class="block text-sm py-1">AAC (Block/Construction material)</a>
+                            <a href="#" class="block text-sm py-1">Acrylic Distemper</a>
+                            <a href="#" class="block text-sm py-1">Acrylic Texture</a>
+                            <a href="#" class="block text-sm py-1">Exterior Emulsion</a>
+                            <a href="#" class="block text-sm py-1">Plast Putty</a>
+                            <a href="#" class="block text-sm py-1">Primer</a>
+                            <a href="ready-mix-plaster.php" class="block text-sm py-1">Ready Mix</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <a href="become-distributor.php" class="block py-3 font-semibold text-gray-700">
+                    Become Distributor
+                </a>
+
+                <a href="contact-us.php"
+                    class="block mt-4 text-center bg-brand-red text-white py-2.5 rounded-lg font-bold">
+                    Contact Us
+                </a>
+
             </div>
         </div>
     </nav>
@@ -138,7 +184,7 @@
     <?php echo $content; ?>
 
     <footer class="bg-brand-dark text-gray-400 pt-20 pb-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
 
                 <div>
@@ -150,8 +196,8 @@
                     <ul class="space-y-3">
                         <li><a href="index.php" class="hover:text-brand-red transition">Home</a></li>
                         <li><a href="about.php" class="hover:text-brand-red transition">About</a></li>
-                        <li><a href="#" class="hover:text-brand-red transition">Product</a></li>
-                        <li><a href="#" class="hover:text-brand-red transition">Contact</a></li>
+                        <li><a href="product-list.php" class="hover:text-brand-red transition">Product</a></li>
+                        <li><a href="contact-us.php" class="hover:text-brand-red transition">Contact</a></li>
                     </ul>
                 </div>
 
@@ -163,12 +209,14 @@
                             <span>123 Industrial Area, Phase 4, <br>New Delhi, India 110020</span>
                         </li>
                         <li class="flex gap-3 items-center">
+                            <a href="tel:+91 8889912911">
                             <i class="fa-solid fa-phone text-white"></i>
-                            <span>+91 1800-123-4567 (Toll Free)</span>
+                            <span>+91 8889912911</span></a>
                         </li>
                         <li class="flex gap-3 items-center">
+                            <a href="mailto:bullstrongjbp@gmail.com" target="_blank">
                             <i class="fa-solid fa-envelope text-white"></i>
-                            <span>info@bullstrong.in</span>
+                            <span> bullstrongjbp@gmail.com</span></a>
                         </li>
                     </ul>
                 </div>
@@ -176,18 +224,16 @@
                 <div>
                     <h4 class="text-white font-bold mb-6 text-lg uppercase tracking-wider">Follow Us</h4>
                     <div class="flex gap-4">
-                        <a href="#"
+                        <a href="https://www.facebook.com/bullstrongjbp"
                             class="w-10 h-10 rounded-lg bg-white text-black flex items-center justify-center hover:bg-[#ed3136] hover:text-white transition"><i
                                 class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"
+                        <a href="https://www.youtube.com/@Bull_Strong"
                             class="w-10 h-10 rounded-lg bg-white text-black flex items-center justify-center hover:bg-[#ed3136] hover:text-white transition"><i
-                                class="fa-brands fa-twitter"></i></a>
-                        <a href="#"
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/bullstrongjbp/"
                             class="w-10 h-10 rounded-lg bg-white text-black flex items-center justify-center hover:bg-[#ed3136] hover:text-white transition"><i
                                 class="fa-brands fa-instagram"></i></a>
-                        <a href="#"
-                            class="w-10 h-10 rounded-lg bg-white text-black flex items-center justify-center hover:bg-[#ed3136] hover:text-white transition"><i
-                                class="fa-brands fa-linkedin-in"></i></a>
+                         
                     </div>
                 </div>
             </div>
@@ -456,22 +502,6 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
-            // --- Mobile Menu Toggle ---
-            const btn = document.getElementById('mobile-menu-btn');
-            const menu = document.getElementById('mobile-menu');
-            const icon = btn.querySelector('i');
-
-            btn.addEventListener('click', () => {
-                menu.classList.toggle('hidden');
-                if (menu.classList.contains('hidden')) {
-                    icon.classList.remove('fa-xmark');
-                    icon.classList.add('fa-bars');
-                } else {
-                    icon.classList.remove('fa-bars');
-                    icon.classList.add('fa-xmark');
-                }
-            });
-
             // --- Sticky Navbar ---
             const navbar = document.getElementById('navbar');
             window.addEventListener('scroll', () => {
@@ -555,6 +585,8 @@
             const prevBtn = document.getElementById('prevBtn');
             const nextBtn = document.getElementById('nextBtn');
             const sliderSection = document.getElementById('testimonial-section');
+
+            if (!track || !prevBtn || !nextBtn || !sliderSection) return;
 
             let isTransitioning = false;
             let autoSlideInterval;
@@ -654,6 +686,43 @@
             startAutoSlide();
         });
     </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const overlay = document.getElementById('menuOverlay');
+    const closeBtn = document.getElementById('closeMenu');
+
+    if (menuBtn && mobileMenu && overlay && closeBtn) {
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.remove('-translate-x-full');
+            overlay.classList.remove('hidden');
+        });
+
+        function closeMenu() {
+            mobileMenu.classList.add('-translate-x-full');
+            overlay.classList.add('hidden');
+        }
+
+        closeBtn.addEventListener('click', closeMenu);
+        overlay.addEventListener('click', closeMenu);
+    }
+
+    // Dropdown
+    const productToggle = document.getElementById('productToggle');
+    const productDropdown = document.getElementById('productDropdown');
+    const arrowIcon = document.getElementById('arrowIcon');
+
+    if (productToggle && productDropdown && arrowIcon) {
+        productToggle.addEventListener('click', () => {
+            productDropdown.classList.toggle('hidden');
+            arrowIcon.classList.toggle('rotate-180');
+        });
+    }
+
+});
+</script>
 </body>
 
 </html>
