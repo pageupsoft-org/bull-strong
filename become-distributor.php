@@ -193,25 +193,26 @@ ob_start();
                     <span class="md:text-2xl text-3xl font-medium text-gray-600">Sample or Expert Consultation</span>
                 </h2>
                 <form action="send-mail.php" method="post" class="space-y-5 bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
+                    <input type="hidden" name="form_type" value="distributor">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="flex flex-col gap-1">
                             <label for="fullname" class="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Full Name</label>
-                            <input type="text" id="fullname" name="fullname"
+                            <input type="text" id="fullname" name="fullname" required
                                 class="w-full border-b-2 border-gray-200 bg-gray-50/50 py-3 px-3 rounded-t-lg outline-none focus:border-red-600 focus:bg-white transition-all"
                                 placeholder="Enter your name">
                         </div>
 
                         <div class="flex flex-col gap-1">
                             <label for="phone" class="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Phone Number</label>
-                            <input type="tel" id="phone" name="phone"
+                            <input type="tel" id="phone" name="phone" required
                                 class="w-full border-b-2 border-gray-200 bg-gray-50/50 py-3 px-3 rounded-t-lg outline-none focus:border-red-600 focus:bg-white transition-all"
-                                placeholder="+91 ...">
+                                placeholder="+91 ..." maxlength="11" minlength="10">
                         </div>
                     </div>
 
                     <div class="flex flex-col gap-1">
                         <label for="city" class="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">City / Location</label>
-                        <input type="text" id="city" name="city"
+                        <input type="text" id="city" name="city" required
                             class="w-full border-b-2 border-gray-200 bg-gray-50/50 py-3 px-3 rounded-t-lg outline-none focus:border-red-600 focus:bg-white transition-all"
                             placeholder="Enter your city">
                     </div>
@@ -239,8 +240,8 @@ ob_start();
                     </div>
 
                     <div class="flex flex-col gap-1">
-                        <label for="productslist" class="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Interest</label>
-                        <select id="productslist" name="productslist"
+                        <label for="interest" class="text-xs font-bold uppercase tracking-wider text-gray-500 ml-1">Interest</label>
+                        <select id="interest" name="interest"
                             class="w-full p-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-red-600 outline-none transition-all cursor-pointer">
                             <option value="Wall Care">Wall Care</option>
                             <option value="Tile Care">Tile Care</option>

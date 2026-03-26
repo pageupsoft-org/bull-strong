@@ -39,7 +39,7 @@ $mail->Encoding = 'base64';
         $mail->Username = 'testingpageup@gmail.com';
         $mail->Password = 'joghbvzibjluivbn';
         $mail->From = 'testingpageup@gmail.com';
-        $mail->FromName = 'Divine Recovery';
+        $mail->FromName = 'Bull Strong';
 
         // Add recipients
         foreach (explode(',', $this->to) as $to) {

@@ -1,13 +1,17 @@
 <?php
 ob_start();
 ?>
-<section class="relative h-[320px] flex items-center justify-center text-white">
-    <img src="images/banner.jpg" class="absolute inset-0 w-full h-full object-cover">
-    <div class="absolute inset-0 bg-black/60"></div>
-    <div class="relative text-center">
+<section class="relative xl:h-[650px] lg:h-[450px] md:h-[300px] flex items-center justify-center text-white md:block hidden">
+    <img src="images/product-image/product-list-banner.jpg" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/10"></div>
+    <!-- <div class="relative text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-3">Our Product Range</h1>
         <p class="text-gray-200">Explore Tile and Wall Construction Solutions</p>
-    </div>
+    </div> -->
+</section>
+<section class="relative h-[350px] sm:h-[500px] flex items-center justify-center text-white md:hidden block">
+    <img src="images/product-image/product-list-mob.jpg" class="absolute inset-0 w-full h-full">
+    <div class="absolute inset-0 bg-black/10"></div>
 </section>
 
 <section class="lg:py-20 md:py-10 py-6 bg-gray-50">

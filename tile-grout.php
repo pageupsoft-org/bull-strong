@@ -405,19 +405,20 @@ ob_start();
                         High-volume industrial pricing available.
                         Responses within 24 hours.
                     </p>
-                    <form class="space-y-4">
+                    <form action="send-mail.php" method="POST" class="space-y-4">
+                        <input type="hidden" name="form_type" value="quote">
                         <div>
                             <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Full Name</label>
-                            <input type="text" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
+                            <input type="text" name="fullname" required class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
                         </div>
                         <div class="grid grid-cols-2 gap-3">
                             <div>
                                 <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Phone Number</label>
-                                <input type="tel" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed" maxlength="11" minlength="10">
+                                <input type="tel" name="phone" required class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed" maxlength="11" minlength="10">
                             </div>
                             <div>
                                 <label class="block text-xs font-medium text-brandDark mb-1 uppercase">City / Location</label>
-                                <input type="text" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
+                                <input type="text" name="city" required class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
                             </div>
                         </div>
 
@@ -426,7 +427,7 @@ ob_start();
                                 Project Type
                             </label>
 
-                            <select class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
+                            <select name="project_type" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
                                 <option value="">Select Project Type</option>
                                 <option value="residential">Residential Project</option>
                                 <option value="commercial">Commercial Project</option>
@@ -442,40 +443,28 @@ ob_start();
                                 Product
                             </label>
 
-                            <select class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
+                            <select name="product_name" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
                                 <option value="tile-adhesive">Tile Adhesive</option>
-                                <option value="sbr-latex" selected>SBR Latex</option>
+                                <option value="sbr-latex">SBR Latex</option>
                                 <option value="tile-cleaner">Tile Cleaner</option>
                                 <option value="epoxy-grout">Epoxy Grout</option>
                                 <option value="aac-block">Bull Strong AAC Block</option>
                                 <option value="rmp">RMP</option>
-                                <option value="tile-grout">Bull Strong Tile Grout</option>
+                                <option value="tile-grout" selected>Bull Strong Tile Grout</option>
                             </select>
                         </div>
                         <!-- Quantity Required -->
                         <div>
                             <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Quantity</label>
-                            <input type="tel" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
+                            <input type="text" name="quantity" class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed" placeholder="e.g. 100 Bags">
                         </div>
-                        <!-- <div>
-                            <label class="block text-xs font-medium text-brandDark mb-1 uppercase">
-                                Quantity 
-                            </label>
-                            <select class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
-                                <option value="">Select Quantity</option>
-                                <option>10 – 50 Kg</option>
-                                <option>50 – 100 Kg</option>
-                                <option>100 – 500 Kg</option>
-                                <option>500+ Kg</option>
-                            </select>
-                        </div> -->
 
                         <!-- Project Details -->
                         <div class="mt-4">
                             <label class="block text-xs font-medium text-brandDark mb-1 uppercase">
                                 Project Details / Message
                             </label>
-                            <textarea rows="4"
+                            <textarea name="message" rows="4"
                                 class="w-full bg-gray-50 border border-gray-200 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed"
                                 placeholder="Enter your project details or message..."></textarea>
                         </div>

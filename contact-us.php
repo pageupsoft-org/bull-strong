@@ -101,7 +101,8 @@ ob_start();
                 <h2 class="text-2xl font-bold text-bulldark mb-2">Have a Question or Requirement?</h2>
                 <p class="text-sm text-gray-500 mb-6">Fill out the form and our team will get back to you shortly.</p>
 
-                <form action="#" method="POST" class="space-y-5">
+                <form action="send-mail.php" method="POST" class="space-y-5">
+                    <input type="hidden" name="form_type" value="contact">
                     <!-- Name & Phone Row -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                         <div>
@@ -122,14 +123,14 @@ ob_start();
                         </div>
                         <div>
                             <label class="block text-sm font-medium text-gray-700 mb-1">City / Location *</label>
-                            <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c81e1e] focus:border-[#c81e1e] outline-none transition-colors" placeholder="e.g. Jabalpur">
+                            <input type="text" name="city" id="city" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c81e1e] focus:border-[#c81e1e] outline-none transition-colors" placeholder="e.g. Jabalpur">
                         </div>
                     </div>
 
                     <!-- Inquiry Type -->
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1">Inquiry Type *</label>
-                        <select required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c81e1e] focus:border-[#c81e1e] outline-none transition-colors bg-white">
+                        <select name="inquiry_type" id="inquiry_type" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c81e1e] focus:border-[#c81e1e] outline-none transition-colors bg-white">
                             <option value="" disabled selected>Select an option</option>
                             <option value="product">Product Information</option>
                             <option value="distributor">Distributor Inquiry</option>
@@ -141,7 +142,7 @@ ob_start();
                     <!-- Message -->
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1">Message *</label>
-                        <textarea rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c81e1e] focus:border-[#c81e1e] outline-none transition-colors resize-none" placeholder="How can we help you?"></textarea>
+                        <textarea name="message" id="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c81e1e] focus:border-[#c81e1e] outline-none transition-colors resize-none" placeholder="How can we help you?"></textarea>
                     </div>
 
                     <!-- Submit Button -->

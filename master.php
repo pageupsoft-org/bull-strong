@@ -1,5 +1,6 @@
 <?php
 ob_start();
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -45,6 +46,7 @@ ob_start();
     <script src="js/validation.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/thankyou-msg.css">
 </head>
 
 <body class="font-sans text-gray-800 bg-white overflow-x-hidden">
@@ -70,9 +72,9 @@ ob_start();
                             <!-- Left Side: Featured Image -->
                             <div class="w-1/3 bg-gray-200 relative overflow-hidden hidden md:block">
                                 <!-- Replace with your actual product or building image -->
-                                <img src="images/tile-care-product-1.png" alt="Our Products" class="w-full h-full object-cover">
+                                <img src="images/product-image/dropdown-image.jpg" alt="Our Products" class="w-full h-full object-cover">
                                 <!-- Optional Dark Overlay to match the vibe of the reference image -->
-                                <div class="absolute inset-0 bg-black bg-opacity-20 mix-blend-multiply"></div>
+                                <!-- <div class="absolute inset-0 bg-black bg-opacity-20 mix-blend-multiply"></div> -->
                             </div>
 
                             <!-- Right Side: Links & Categories -->
@@ -252,6 +254,46 @@ ob_start();
             </div>
         </div>
     </footer>
+    <!-- Thankyou msg popup box -->
+    <?php if (isset($_SESSION['isSuccess'])) { ?>
+        <?php if ($_SESSION['isSuccess']) { ?>
+            <div class="popup-center" id="thxbox">
+                <div class="wrapper green">
+                    <div class="header__wrapper">
+                        <div class="header">
+                            <div class="sign"><span></span></div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-green-700 font-semibold text-2xl">Submission Successful!</h4>
+                        <p class="text-lg font-normal"><?php echo $_SESSION['msg'] ?></p>
+                    </div>
+                    <span onclick="document.getElementById('thxbox').style.display='none'"
+                        class="popup-close-btn bg-green-700 text-white">Close</span>
+                    <!-- <button onclick="$(this).parent().parent().remove()" class="popup-close-btn bg-success text-white">Close</button> -->
+                </div>
+            </div>
+        <?php } else { ?>
+            <div class="popup-center" id="thxboxfaild">
+                <div class="wrapper red">
+                    <div class="header__wrapper">
+                        <div class="header">
+                            <div class="sign"><span></span></div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-red-700 font-semibold text-2xl">Failed.</h4>
+                        <p class="text-lg font-normal"><?php echo $_SESSION['msg'] ?></p>
+                    </div>
+                    <span onclick="document.getElementById('thxboxfaild').style.display='none'"
+                        class="popup-close-btn bg-red-700 text-white">Close</span>
+                </div>
+            </div>
+        <?php } ?>
+        <?php unset($_SESSION['isSuccess']);
+        unset($_SESSION['msg']); ?>
+    <?php } ?>
+
     <!-- Back To Top Button -->
     <button id="backToTop"
         class="fixed bottom-6 right-6 hidden bg-black text-white p-2 w-10 h-10 z-30 rounded-full shadow-lg hover:bg-gray-800 transition duration-300">
