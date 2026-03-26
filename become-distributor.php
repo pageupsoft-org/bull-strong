@@ -127,7 +127,7 @@ ob_start();
         </h2>
     </div>
 
-    <div class="overflow-hidden rounded-2xl shadow-xl border border-gray-200 bg-white container mx-auto">
+    <div class="max-w-6xl overflow-hidden rounded-2xl shadow-xl border border-gray-200 bg-white container mx-auto">
         <div class="overflow-x-auto">
             <table class="w-full text-left border-collapse">
                 <thead>

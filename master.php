@@ -1,3 +1,7 @@
+<?php
+ob_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 
@@ -38,6 +42,7 @@
             }
         }
     </script>
+    <script src="js/validation.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -210,13 +215,13 @@
                         </li>
                         <li class="flex gap-3 items-center">
                             <a href="tel:+91 8889912911">
-                            <i class="fa-solid fa-phone text-white"></i>
-                            <span>+91 8889912911</span></a>
+                                <i class="fa-solid fa-phone text-white"></i>
+                                <span>+91 8889912911</span></a>
                         </li>
                         <li class="flex gap-3 items-center">
                             <a href="mailto:bullstrongjbp@gmail.com" target="_blank">
-                            <i class="fa-solid fa-envelope text-white"></i>
-                            <span> bullstrongjbp@gmail.com</span></a>
+                                <i class="fa-solid fa-envelope text-white"></i>
+                                <span> bullstrongjbp@gmail.com</span></a>
                         </li>
                     </ul>
                 </div>
@@ -233,7 +238,7 @@
                         <a href="https://www.instagram.com/bullstrongjbp/"
                             class="w-10 h-10 rounded-lg bg-white text-black flex items-center justify-center hover:bg-[#ed3136] hover:text-white transition"><i
                                 class="fa-brands fa-instagram"></i></a>
-                         
+
                     </div>
                 </div>
             </div>
@@ -686,43 +691,43 @@
             startAutoSlide();
         });
     </script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
 
-    const menuBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const overlay = document.getElementById('menuOverlay');
-    const closeBtn = document.getElementById('closeMenu');
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const overlay = document.getElementById('menuOverlay');
+            const closeBtn = document.getElementById('closeMenu');
 
-    if (menuBtn && mobileMenu && overlay && closeBtn) {
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.remove('-translate-x-full');
-            overlay.classList.remove('hidden');
+            if (menuBtn && mobileMenu && overlay && closeBtn) {
+                menuBtn.addEventListener('click', () => {
+                    mobileMenu.classList.remove('-translate-x-full');
+                    overlay.classList.remove('hidden');
+                });
+
+                function closeMenu() {
+                    mobileMenu.classList.add('-translate-x-full');
+                    overlay.classList.add('hidden');
+                }
+
+                closeBtn.addEventListener('click', closeMenu);
+                overlay.addEventListener('click', closeMenu);
+            }
+
+            // Dropdown
+            const productToggle = document.getElementById('productToggle');
+            const productDropdown = document.getElementById('productDropdown');
+            const arrowIcon = document.getElementById('arrowIcon');
+
+            if (productToggle && productDropdown && arrowIcon) {
+                productToggle.addEventListener('click', () => {
+                    productDropdown.classList.toggle('hidden');
+                    arrowIcon.classList.toggle('rotate-180');
+                });
+            }
+
         });
-
-        function closeMenu() {
-            mobileMenu.classList.add('-translate-x-full');
-            overlay.classList.add('hidden');
-        }
-
-        closeBtn.addEventListener('click', closeMenu);
-        overlay.addEventListener('click', closeMenu);
-    }
-
-    // Dropdown
-    const productToggle = document.getElementById('productToggle');
-    const productDropdown = document.getElementById('productDropdown');
-    const arrowIcon = document.getElementById('arrowIcon');
-
-    if (productToggle && productDropdown && arrowIcon) {
-        productToggle.addEventListener('click', () => {
-            productDropdown.classList.toggle('hidden');
-            arrowIcon.classList.toggle('rotate-180');
-        });
-    }
-
-});
-</script>
+    </script>
 </body>
 
 </html>
