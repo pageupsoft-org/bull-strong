@@ -606,7 +606,7 @@ ob_start();
                     </div>
                     <form class="space-y-4">
                         <div>
-                            <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Total Area (sq. meters)</label>
+                            <label class="block text-xs font-medium text-brandDark mb-1 uppercase">Total Area (sq. feet)</label>
                             <input type="number" placeholder="e.g. 100" class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-brandRed">
                         </div>
                         <div>

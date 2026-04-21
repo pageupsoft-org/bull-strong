@@ -222,9 +222,7 @@ ob_start();
                         <!-- CTA -->
                         <a href="aac-block-adhesive.php"
                             class="inline-flex items-center gap-2 text-brandRed font-semibold text-sm group-hover:gap-3 transition-all">
-
                             View Product
-
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4"
                                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
