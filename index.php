@@ -505,7 +505,7 @@ ob_start();
 
 
 <!-- Work  -->
-<div class="bg-[#262626] antialiased">
+<!-- <div class="bg-[#262626] antialiased hidden">
 
     <div class="w-full overflow-hidden">
 
@@ -567,10 +567,10 @@ ob_start();
 
         </section>
     </div>
-</div>
+</div> -->
 
 <!-- Work video -->
-<section class="w-full py-16 md:py-24 relative">
+<!-- <section class="w-full py-16 md:py-24 relative hidden">
 
     <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center mb-10 md:mb-14">
         <span
@@ -727,7 +727,7 @@ ob_start();
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- Testimonials -->
@@ -866,7 +866,7 @@ ob_start();
             requirements and material specifications.</p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">
             <a href="contact-us.php" class="bg-white text-[#ed3136] font-medium px-8 py-3 rounded hover:bg-gray-100 transition">Contact Us </a>
-            <a href="#" class="bg-[#D32F2F] text-white font-medium px-8 py-3 rounded hover:bg-red-700 transition">Download Product Catalog</a>
+            <!-- <a href="#" class="bg-[#D32F2F] text-white font-medium px-8 py-3 rounded hover:bg-red-700 transition">Download Product Catalog</a> -->
         </div>
     </div>
 </section>

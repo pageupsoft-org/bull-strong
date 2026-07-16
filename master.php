@@ -213,7 +213,10 @@ session_start();
                     <ul class="space-y-4">
                         <li class="flex gap-3">
                             <i class="fa-solid fa-location-dot mt-1 text-white"></i>
-                            <span>123 Industrial Area, Phase 4, <br>New Delhi, India 110020</span>
+                            <span>Wal Care Industries
+445, Lordganj
+Jabalpur – 482002
+Madhya Pradesh, India</span>
                         </li>
                         <li class="flex gap-3 items-center">
                             <a href="tel:+91 8889912911">
@@ -247,10 +250,10 @@ session_start();
 
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
                 <p>&copy; 2026 Bull Strong Industries. All rights reserved.</p>
-                <div class="flex gap-4 mt-4 md:mt-0">
+                <!-- <div class="flex gap-4 mt-4 md:mt-0">
                     <a href="#" class="hover:text-white transition">Privacy Policy</a>
                     <a href="#" class="hover:text-white transition">Terms of Service</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>

@@ -599,7 +599,7 @@ ob_start();
         <div class="lg:col-span-4">
             <div class="sticky top-[100px] space-y-6">
                 <!-- Coverage Calculator Box -->
-                <div class="bg-[#FEF4F4] rounded-lg p-6 border border-red-100 shadow-sm">
+                <div class="bg-[#FEF4F4] rounded-lg p-6 border border-red-100 shadow-sm hidden">
                     <div class="flex items-center gap-2 mb-4 text-brandRed font-bold text-[#F90606]">
                         <i class="fa-solid fa-calculator"></i>
                         <h3>COVERAGE CALCULATOR</h3>
@@ -856,7 +856,7 @@ ob_start();
                 Talk to a Bull Strong Expert
             </a>
 
-            <a href="#" class="bg-brandRed text-white font-medium px-8 py-3 rounded hover:bg-red-700 transition">
+            <a href="contact-us.php" class="bg-brandRed text-white font-medium px-8 py-3 rounded hover:bg-red-700 transition">
                 Download Product Catalog
             </a>
         </div>
